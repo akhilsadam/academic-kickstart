@@ -32,4 +32,11 @@ subtitle = ""
   name = "Photography"
   description = "10%"
 
+[advanced]
+ # Custom CSS. 
+ css_style = "background: rgba(0,0,0,0.0);backdrop-filter: blur(40px);"
+ 
+ # CSS class.
+ css_class = "skills"
+
 +++

@@ -20,7 +20,7 @@ copyright = "&copy; Akhil Sadam {year}"
 ############################
 
 # Name of Academic theme folder in `themes/`.
-theme = "academic"
+theme = "academic"#["hugo-video","academic"]
 
 # Get last modified date for content from Git?
 enableGitInfo = false
@@ -35,6 +35,10 @@ paginate = 10  # Number of items per page in paginated lists.
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[params]
+custom_css = ["css/custom.css"]
+custom_js = ["js/GSAP/gsap.min.js","js/GSAP/ScrollTrigger.min.js","js/custom.js"]
 
 [outputs]
   home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]

@@ -41,4 +41,9 @@ date_format = "Jan 2006"
   date_end = "2016-12-31"
   description = """Taught electronic engineering and researched semiconductor physics."""
 
+
+[advanced]
+ # Custom CSS. 
+ css_style = "background: rgba(0,0,0,0.0);backdrop-filter: blur(40px);"
+ 
 +++

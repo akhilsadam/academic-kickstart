@@ -1,0 +1,95 @@
+.navbar{
+background: url(../../img/head6.png) !important;
+background-size: cover !important;
+background-position: 35% 50% !important;
+overflow : hidden !important;
+text-transform: uppercase !important;
+}
+.nav-item,.nav-link{
+color: rgb(235,250,255) !important;
+mix-blend-mode: darken !important;
+}
+.navbar-brand{
+color: rgb(250,250,250) !important;
+mix-blend-mode: darken !important;
+font-variant: normal !important;
+}
+
+.Main{
+image = "test2.jpg";
+filter: invert(1) !important;
+}
+
+.dark .Main{
+image = "test2.jpg";
+}
+
+.Main::before{
+z-index: -2;
+-webkit-transform: translateZ(0);
+    position: fixed;
+    top: 0;
+    left: 0;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+overflow : hidden;
+height: 100%;
+width: 100%;
+background: inherit;
+background-size: cover;
+content: "";
+#filter: blur(40px);
+}
+
+.Main{
+padding-top: 0px !important;
+padding-left: 0px !important;
+padding-right: 0px !important;
+padding-bottom: 0px !important;
+position: fixed;
+width:100%;height:100%;
+left: 0;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+#background: rgba(0,0,0,0);
+#background: url(../../img/main.png) !important;
+#backdrop-filter: blur(0px);
+#-webkit-backdrop-filter: blur(0px)
+}
+
+#bgVideo{
+	position: fixed;
+	left: 0;
+ 	 margin-top: 0px;
+ 	 margin-left: 0px;
+	object-fit: cover;
+	height: 100%;
+	max-height: 1080px;
+}
+
+#-----------------------
+div{
+background: rgba(0,0,0,0);
+font-family: Aron Grotesque Light;
+font-variant-ligatures: none;
+}
+
+h2{
+font-family: Montserrat Light;
+text-transform: lowercase !important;
+font-variant: small-caps;
+}
+
+h3{
+#font-family: Zenzai Itacha !important;
+text-transform: lowercase !important;
+font-variant: small-caps;
+#font-style: italic;
+}
+.container{
+z-index: 0;
+}
