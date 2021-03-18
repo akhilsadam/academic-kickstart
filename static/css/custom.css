@@ -17,11 +17,12 @@ font-variant: normal !important;
 
 .Main{
 image = "test2.jpg";
-filter: invert(1) !important;
+filter: invert(0) !important;
 }
 
 .dark .Main{
 image = "test2.jpg";
+filter: invert(1) !important;
 }
 
 .Main::before{
