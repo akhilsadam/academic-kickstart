@@ -37,8 +37,8 @@ footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
+custom_js = ["js/GSAP/gsap.min.js","js/GSAP/ScrollTrigger.min.js","js/sc_api.js"]
 custom_css = ["css/custom.css"]
-custom_js = ["js/GSAP/gsap.min.js","js/GSAP/ScrollTrigger.min.js","js/custom.js"]
 
 [outputs]
   home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]

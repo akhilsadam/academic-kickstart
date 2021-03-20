@@ -13,6 +13,48 @@ gsap.registerPlugin(ScrollTrigger);
 //alert("Script loaded!");
 
 
+//alert("CustomJS");
+
+
+let element = document.createElement("div");
+element.className = "bkgd"; 
+element.id = "bkgd"; 
+let uwp = document.querySelector('.universal-wrapper.pt-3');
+element.appendChild(document.createTextNode(''));
+document.getElementById('top').insertBefore(element,uwp);
+
+
+let article = document.querySelector('.article-style');
+
+if(article){
+//alert(article);
+}else{
+//alert("article FAILED");
+}
+
+var offHeight = article.scrollHeight;
+//var vWidth = document.documentElement.clientWidth;
+var verticalHeight = document.documentElement.clientHeight;
+let offsetHeight = offHeight + 0.35*verticalHeight;
+//let offsetWidth = vWidth;
+
+if(offsetHeight){
+//alert(offsetHeight);
+//alert("Height success");
+}else{
+//alert("Height FAILED");
+}
+document.getElementById('bkgd').style.height = offsetHeight+'px';
+//document.getElementById('bkgd').style.width = offsetWidth+'px';
+var gHeight = document.getElementById('bkgd').offsetHeight;
+
+if(gHeight){
+//alert(gHeight);
+//alert("Height success");
+}else{
+//alert("Height FAILED");
+}
+
 const video = document.querySelector("#bgVideo");
 let videoDuration;
 video.onloadedmetadata = function() {

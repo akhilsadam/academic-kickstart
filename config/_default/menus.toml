@@ -9,19 +9,44 @@
   weight = 10
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 20
-
+    identifier = "projects"
+    name = "Projects"
+    url = "projects/"
+    weight = 20
 [[main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 30
+    identifier = "research"
+    name = "Research"
+    url = "projects/research/"
+    parent = "projects"
+    weight = 1
+[[main]]
+    identifier = "simdev"
+    name = "Simulations & Games"
+    url = "projects/simulation/"
+    parent = "projects"
+    weight = 2
+[[main]]
+    identifier = "archvis"
+    name = "ArchViz"
+    url = "projects/archvis/"
+    parent = "projects"
+    weight = 3
+[[main]]
+    identifier = "music"
+    name = "Music"
+    url = "projects/music/"
+    parent = "projects"
+    weight = 4
 
 [[main]]
   name = "Publications"
   url = "#featured"
-  weight = 40
+  weight = 30
+
+#[[main]]
+#  name = "Posts"
+# url = "#posts"
+#  weight = 40
 
 [[main]]
   name = "Contact"
