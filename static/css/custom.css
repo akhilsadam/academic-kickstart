@@ -34,13 +34,11 @@ font-size: 18px !important;
 }
 
 .Main{
-image: "test2.jpg";
-filter: invert(0) brightness(2)!important;
+filter: invert(0) !important;
 }
 
 .dark .Main{
-image: "test2.jpg";
-filter: invert(1) brightness(0.5) !important;
+filter: invert(1) !important;
 }
 
 .Main::before{
@@ -126,7 +124,7 @@ transform: scale(1.05);
 #bkgd{
 content: "";
 perspective: 320px;
-background: url(../../img/musicL.png) !important;
+background: url(../../img/musicL3.png) !important;
 background-size: cover !important;
 position: absolute !important;
   background-attachment: fixed !important;
@@ -204,6 +202,7 @@ h1{
 font-family: Zenzai Itacha !important;
 font-size: xxx-large !important;
 mix-blend-mode: difference;
+filter: drop-shadow(6px 6px 2px black);
 }
 
 h2{
@@ -281,4 +280,89 @@ padding: 0;
 
 .blur{
 backdrop-filter: blur(5px);
+overflow: hidden;
+}
+
+.hblur{
+backdrop-filter: blur(20px);
+overflow: hidden;
+}
+
+.lblur{
+backdrop-filter: blur(20px);
+overflow: hidden;
+}
+.dark .lblur{
+backdrop-filter: blur(0px);
+overflow: hidden;
+}
+.lsblur{
+backdrop-filter: blur(40px);
+overflow: hidden;
+}
+.dark .lsblur{
+backdrop-filter: blur(0px);
+overflow: hidden;
+}
+.hard-light{
+backdrop-filter:blur(0px);
+mix-blend-mode: hard-light !important;
+}
+.exclusion{
+color: #fff !important;
+backdrop-filter:blur(0px) !important;
+mix-blend-mode: difference !important;
+}
+.exclusionf{
+backdrop-filter:blur(0px) !important;
+background: inherit !important;
+mix-blend-mode: difference !important;
+}
+.wh{
+color: #fff !important;
+}
+.uhc{
+color: #fff;
+-webkit-text-stroke: 1px black; /* width and color */
+backdrop-filter:blur(0px);
+mix-blend-mode: hard-light !important;
+filter: drop-shadow(5px 4px 2px black);
+}
+.dark .uhc{
+-webkit-text-stroke: 0px red; /* width and color */
+color: #fff;
+#filter: drop-shadow(5px 4px 2px black);
+}
+.hc{
+color: #fff;
+-webkit-text-stroke: 1px black; /* width and color */
+}
+.dark .hc{
+color: #fff;
+-webkit-text-stroke: 0px red; /* width and color */
+}
+.dropdown-menu,.dropdown-menu.show{
+backdrop-filter:blur(0px);
+background: rgba(0,0,0,0);
+-webkit-text-stroke: 1px black; /* width and color */
+}
+
+.powered-by{
+-webkit-text-stroke: 0px white ; /* width and color */
+color: white;
+backdrop-filter:blur(0px);
+#mix-blend-mode: hard-light !important;
+filter: drop-shadow(5px 4px 2px black);
+}
+.dark .powered-by{
+-webkit-text-stroke: 0px red; /* width and color */
+color: #fff;
+#filter: drop-shadow(5px 4px 2px black);
+}
+
+.bold{
+  font-weight: bold;
+}
+.dark .bold{
+  font-weight: normal;
 }
