@@ -20,23 +20,29 @@
     parent = "projects"
     weight = 1
 [[main]]
-    identifier = "simdev"
-    name = "Simulations & Games"
-    url = "projects/simulation/"
-    parent = "projects"
-    weight = 2
-[[main]]
     identifier = "archvis"
     name = "ArchViz"
     url = "projects/archvis/"
     parent = "projects"
+    weight = 2
+[[main]]
+    identifier = "art"
+    name = "3D Modeling & Art"
+    url = "projects/art/"
+    parent = "projects"
     weight = 3
+[[main]]
+    identifier = "simdev"
+    name = "Simulations & Games"
+    url = "projects/simulation/"
+    parent = "projects"
+    weight = 4
 [[main]]
     identifier = "music"
     name = "Music"
     url = "projects/music/"
     parent = "projects"
-    weight = 4
+    weight = 5
 
 [[main]]
   name = "Publications"

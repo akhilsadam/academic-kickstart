@@ -135,7 +135,7 @@ position: absolute !important;
     height: 100%;
 #overflow-x: hidden;
 overflow-y: hidden;
-top:calc(5.75vh + 1px);
+top:calc(5.0vh + 1px);
 right:0px;
   margin-top: 0px;
   margin-left: 0px;
@@ -235,10 +235,6 @@ z-index: 0;
     float:right;
     padding-right: 10px;
 }
-.rhalign {
-    float:right;
-    padding-right: 10px;
-}
 .valign {
     float:top;
     padding-top: 10px;
@@ -267,6 +263,7 @@ font-size: x-large;
 .notet{
 font-size:small;
 color:rgba(20,20,20,1);
+font-weight: bold;
 }
 .dark .notet{
 color:rgba(200,200,200,1);
@@ -336,10 +333,12 @@ color: #fff;
 .hc{
 color: #fff;
 -webkit-text-stroke: 1px black; /* width and color */
+filter: drop-shadow(1px 1px 1px white);
 }
 .dark .hc{
 color: #fff;
 -webkit-text-stroke: 0px red; /* width and color */
+filter: drop-shadow(1px 1px 1px black);
 }
 .dropdown-menu,.dropdown-menu.show{
 backdrop-filter:blur(0px);
