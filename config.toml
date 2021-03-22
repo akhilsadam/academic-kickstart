@@ -38,7 +38,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 
 [params]
 custom_js = ["js/GSAP/gsap.min.js","js/GSAP/ScrollTrigger.min.js","js/sc_api.js"]
-custom_css = ["css/custom.css"]
+custom_css = ["css/font.css","css/custom.css"]
 
 [outputs]
   home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]

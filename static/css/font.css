@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Sakura Kei';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Sakura Kei'), url('fonts/SakuraKei-7BEPD.ttf');
+}
+
+@font-face {
+  font-family: 'Aron Grotesque Light';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Aron Grotesque Light'), url('fonts/aron-grotesque.light.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Montserrat Regular'), url('fonts/Montserrat-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Montserrat Light';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Montserrat Light'), url('fonts/Montserrat-Light.otf');
+}
+
+@font-face {
+  font-family: 'Zenzai Itacha';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Zenzai Itacha'), url('fonts/Zenzai Itacha.ttf');
+}
+
+@font-face {
+  font-family: 'Dekiru';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Dekiru'), url('fonts/Dekiru.ttf');
+}

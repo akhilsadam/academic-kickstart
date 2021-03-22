@@ -113,6 +113,16 @@ backdrop-filter: blur(100px);
 filter: drop-shadow(1px 1px 1px black);
 }
 
+.fab,.fas {
+font-size: xx-large;
+}
+i.fas.fa-palette, i.fas.fa-moon, i.fas.fa-sun, i.fas.fa-search{
+font-size: medium !important;
+position: relative !important;
+top:-.128vh !important;
+}
+
+
 #top::before{
 content: "";
 background: url(../../img/music.png) !important;
