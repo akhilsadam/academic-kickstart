@@ -3,7 +3,7 @@
 widget = "featurette"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 30  # Order that this section will appear.
+weight = 40  # Order that this section will appear.
 
 title = "Skills"
 subtitle = ""
@@ -34,9 +34,9 @@ subtitle = ""
 
 [advanced]
  # Custom CSS. 
- css_style = "background: rgba(0,0,0,0.0);backdrop-filter: blur(40px);"
+ css_style = ""
  
  # CSS class.
- css_class = "skills"
+ css_class = "skill"
 
 +++

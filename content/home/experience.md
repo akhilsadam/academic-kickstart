@@ -44,6 +44,9 @@ date_format = "Jan 2006"
 
 [advanced]
  # Custom CSS. 
- css_style = "background: rgba(0,0,0,0.0);backdrop-filter: blur(40px);"
+ css_style = ""
+ 
+ # CSS class.
+ css_class = "exp"
  
 +++
