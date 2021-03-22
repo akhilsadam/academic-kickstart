@@ -25,6 +25,6 @@ header:
   </div>
 </div>
 <hr/>
-<note class="notet" style="position:relative; left: 43.3%;margin:0 auto;">(Last updated 3/20/2021)</note>
+<note class="notet" style="position:relative; left: 43.3%;margin:0 auto;">(Last updated 3/21/2021)</note>
 <p class="text hc" style="position:relative; left: 42%; width: 100%;font-size:large;margin:0 auto;">Thank you for reading.</p>
 <p class="text hc" style="position:relative; left: 39%; width: 100%;font-size:large;">Advice or questions appreciated!</p>

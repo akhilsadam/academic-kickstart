@@ -20,8 +20,8 @@ header:
 <div class="piano text bold">
 Piano Scores
 
- - <sty class="sty">two</sty> <note class="notet">(MUS 306 at UT Austin)</note> <a href="https://metapop.com/a132lw">(pdf)</a> <a href="https://metapop.com/a132lw">(mp3)</a>
- - <sty class="sty">one</sty> <note class="notet">(MUS 306 at UT Austin)</note> <a href="https://metapop.com/a132lw">(pdf)</a>
+ - <sty class="sty">two</sty> <note class="notet">(MUS 306 at UT Austin)</note> <a href="https://github.com/akhilsadam/musical-scores/blob/main/02/02_Composition.pdf">(pdf)</a> <audio controls style="width:300px;height:16px;" src="https://github.com/akhilsadam/musical-scores/blob/main/02/piano2.mp3?raw=true">Your browser does not support audio embeds.</audio>
+ - <sty class="sty">one</sty> <note class="notet">(MUS 306 at UT Austin)</note> <a href="https://github.com/akhilsadam/musical-scores/blob/main/01/01_Composition.pdf">(pdf)</a>
 </div>
 <hr/>
 <div class="cine text bold">

@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
-title = "Skills"
+title = "Computer Skills"
 subtitle = ""
 
 # Showcase personal skills or business features.
@@ -42,19 +42,19 @@ subtitle = ""
   icon = "code"
   icon_pack = "fas"
   name = "RUST"
-  description = "40%"
+  description = "55%"
 
 [[feature]]
   icon = "code"
   icon_pack = "fas"
   name = "ROS"
-  description = "30%"
+  description = "50%"
 
 [[feature]]
   icon = "code"
   icon_pack = "fas"
   name = "ROOT"
-  description = "40%"
+  description = "55%"
 
 [[feature]]
   icon = "code"
@@ -90,7 +90,7 @@ subtitle = ""
   icon = "html5"
   icon_pack = "fab"
   name = "HTML"
-  description = "20%"
+  description = "40%"
 
 [[feature]]
   icon = "css3-alt"
@@ -102,7 +102,7 @@ subtitle = ""
   icon = "js-square"
   icon_pack = "fab"
   name = "JS"
-  description = "10%"
+  description = "30%"
 
 [[feature]]
   icon = "file-code"
@@ -140,6 +140,32 @@ subtitle = ""
   name = "Debian"
   description = "50%"
 
+
+[[feature]]
+  icon = "tv"
+  icon_pack = "fas"
+  name = "MS Hypervisor"
+  description = "60%"
+
+[[feature]]
+  icon = "tv"
+  icon_pack = "fas"
+  name = "VirtualBox"
+  description = "80%"
+
+[[feature]]
+  icon = "tv"
+  icon_pack = "fas"
+  name = "VMWare Player"
+  description = "50%"
+
+
+[[feature]]
+  icon = "superpowers"
+  icon_pack = "fab"
+  name = "TACC"
+  description = "40%"
+
 [[feature]]
   icon = "unity"
   icon_pack = "fab"
@@ -149,7 +175,7 @@ subtitle = ""
 [[feature]]
   icon = "dashcube"
   icon_pack = "fab"
-  name = "Substance by Adobe (Allegorithmic)"
+  name = "Substance (Allegorithmic)"
   description = "60%"
 
 [[feature]]
@@ -165,10 +191,83 @@ subtitle = ""
   description = "80%"
 
 [[feature]]
-  icon = "camera-retro"
+  icon = "dashcube"
+  icon_pack = "fab"
+  name = "Cinema4D"
+  description = "30%"
+
+[[feature]]
+  icon = "dashcube"
+  icon_pack = "fab"
+  name = "Houdini"
+  description = "30%"
+
+[[feature]]
+  icon = "dashcube"
+  icon_pack = "fab"
+  name = "AliceVision Meshroom"
+  description = "70%" 
+
+[[feature]]
+  icon = "dashcube"
+  icon_pack = "fab"
+  name = "Autodesk Revit"
+  description = "50%"
+
+[[feature]]
+  icon = "dashcube"
+  icon_pack = "fab"
+  name = "Resolve & Fusion"
+  description = "40%" 
+
+[[feature]]
+  icon = "paint-brush"
   icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "GIMP"
+  description = "50%" 
+
+[[feature]]
+  icon = "paint-brush"
+  icon_pack = "fas"
+  name = "Krita"
+  description = "50%" 
+
+[[feature]]
+  icon = "images"
+  icon_pack = "fas"
+  name = "PhotoScapeX"
+  description = "80%" 
+
+[[feature]]
+  icon = "wave-square"
+  icon_pack = "fas"
+  name = "MuseScore"
+  description = "60%"
+
+
+[[feature]]
+  icon = "wave-square"
+  icon_pack = "fas"
+  name = "FL Studio"
+  description = "80%"
+
+[[feature]]
+  icon = "wave-square"
+  icon_pack = "fas"
+  name = "Cakewalk"
+  description = "40%"
+
+[[feature]]
+  icon = "wave-square"
+  icon_pack = "fas"
+  name = "NI Kontakt"
+  description = "55%"
+
+[[feature]]
+  icon = "wave-square"
+  icon_pack = "fas"
+  name = "NI Reaktor"
+  description = "50%"
 
 [advanced]
  # Custom CSS. 
