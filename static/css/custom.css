@@ -98,13 +98,20 @@ margin-top:0px;
 padding-top: 0px !important;
 }
 
-.exp,.skill,.kontakt{
+.exp,.kontakt{
 #color: rgb(250,250,250);
 #mix-blend-mode: difference;
 background: rgba(0,0,0,0) !important;
 #backdrop-filter: blur(40px);
 }
 
+.skill{
+#color: rgb(250,250,250);
+#background: rgba(255,255,255,0.2) !important;
+backdrop-filter: blur(100px);
+#font-weight: bold;
+filter: drop-shadow(1px 1px 1px black);
+}
 
 #top::before{
 content: "";
