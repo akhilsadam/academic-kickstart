@@ -39,3 +39,10 @@
   font-weight: 300;
   src: local('Dekiru'), url('fonts/Dekiru.ttf');
 }
+
+@font-face {
+  font-family: 'Kashima Brush Demo';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Kashima Brush Demo'), url('fonts/Kashima Brush Demo.otf');
+}

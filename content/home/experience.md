@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
-title = "Experience"
+title = "Research Experience"
 subtitle = ""
 
 # Date format for experience
@@ -20,9 +20,9 @@ date_format = "Jan 2006"
 [[experience]]
   title = "CEO"
   company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  company_url = "http://www.hep.utexas.edu/utkl/index.html"
+  location = "Austin, Texas"
+  date_start = "2020-01-01"
   date_end = ""
   description = """
   Responsibilities include:

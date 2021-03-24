@@ -18,7 +18,7 @@ header:
 <hr/>
 <div class="portfolio">
 <iframe width="100%" height="600" src="https://www.youtube.com/embed/NbwzUi0B2qQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<div style="position:relative; left: 2.5%;width: 95%;">Using <a href="https://unity.com/">Unity</a>, <a href="https://www.blender.org/">Blender</a>, and <a href="https://www.substance3d.com/">Substance</a>. Documentation available here :<a href="https://github.com/akhilsadam/Portfolio/blob/master/2019Portfolio.pdf">Portfolio.pdf</a>. Please note that this documentation is <u>not</u> up-to-date past the Game and Simulation section. Music credits to <a href="https://soundcloud.com/sakuzyo">Sakuzyo</a>.
+<div class="text blur" style="position:relative; left: 2.5%;width: 95%;">Using <a href="https://unity.com/">Unity</a>, <a href="https://www.blender.org/">Blender</a>, and <a href="https://www.substance3d.com/">Substance</a>. Documentation available here :<a href="https://github.com/akhilsadam/Portfolio/blob/master/2019Portfolio.pdf">Portfolio.pdf</a>. Please note that this documentation is <u>not</u> up-to-date past the Game and Simulation section. Music credits to <a href="https://soundcloud.com/sakuzyo">Sakuzyo</a>.
 There also exists an open-world game that was in progress in 2019 but is currently on hiatus.
 </div>
 <hr/>

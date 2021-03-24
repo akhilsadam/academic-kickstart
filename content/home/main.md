@@ -19,4 +19,4 @@ image = "test2.jpg"  # Name of image in `static/img/`.
  css_class = "Main"
 
 +++
-
+<script defer src="../../js/custom.js"></script>
