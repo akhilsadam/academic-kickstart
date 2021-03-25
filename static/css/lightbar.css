@@ -37,4 +37,6 @@ background-position: 70% 25%!important;
 border-left-color: #000;
 border-left-width: 4px;
 border-left-style: solid;
+border-top-width: 0px;
+border-bottom-width: 0px;
 }
