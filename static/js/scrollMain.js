@@ -16,13 +16,19 @@ gsap.registerPlugin(ScrollTrigger);
 //alert("CustomJS");
 
 
-let element = document.createElement("div");
-element.className = "bkgd"; 
-element.id = "bkgd"; 
-let uwp = document.querySelector('.universal-wrapper.pt-3');
+var element = document.createElement("div");
+//var chili = document.createElement("div");
 element.appendChild(document.createTextNode(''));
-document.getElementById('top').insertBefore(element,uwp);
+//chili.className = "chili"; 
+//chili.id = "chili"; 
+element.className = "bkgd"; 
+element.id = "bkgd";
+//element.appendChild(chili);
+//alert(chili);
 
+let uwp = document.querySelector('.universal-wrapper.pt-3');
+
+document.getElementById('top').insertBefore(element,uwp);
 
 let article = document.querySelector('.article-style');
 
