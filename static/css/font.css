@@ -46,3 +46,25 @@
   font-weight: 300;
   src: local('Kashima Brush Demo'), url('fonts/Kashima Brush Demo.otf');
 }
+
+
+@font-face {
+  font-family: 'LOVES';
+  font-style: normal;
+  font-weight: 300;
+  src: local('LOVES'), url('fonts/LOVES.ttf');
+}
+
+@font-face {
+  font-family: 'Kiona';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Kiona Regular'), url('fonts/Kiona-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'GeosansLight';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Geo Sans Light'), url('fonts/GeosansLight.ttf');
+}

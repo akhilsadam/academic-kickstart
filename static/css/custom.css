@@ -1,6 +1,8 @@
 :root {
   --mn-L-text-color: #0f0f0f;
   --mn-D-text-color: #f0f0f0;
+  --mn-L3-text-color: #0c0c0c;
+  --mn-D3-text-color: #c0c0c0;
 }
 
 
@@ -67,8 +69,10 @@ color: rgb(250,250,250) !important;
 #mix-blend-mode: exclusion !important;
 font-family: Sakura Kei !important;
 text-transform: capitalize !important;
-font-size: 18px !important;
-#font-variant: small-caps;
+text-transform: lowercase !important;
+font-size: 24px !important;
+#font-size: 18px !important;
+font-variant: small-caps;
 }
 
 .Main{
@@ -152,11 +156,24 @@ margin-top:0px;
 padding-top: 0px !important;
 }
 
+.avatar{ 
+width:200px  !important;
+height:200px  !important;
+}
+
 .bio,.exp,.skill,.kontakt{
 #color: rgb(250,250,250);
 #mix-blend-mode: difference;
 background: rgba(0,0,0,0) !important;
 #backdrop-filter: blur(40px);
+}
+
+.bio{
+padding-top: 90px !important;
+}
+
+.skill{
+padding: 0px !important;
 }
 
 test{
@@ -347,21 +364,25 @@ filter: drop-shadow(4px 4px 3px black);
 }
 
 h2{
-font-family: Montserrat Light;
-text-transform: lowercase !important;
-font-variant: small-caps;
+font-family: Kiona !important;
+font-size: 18px !important;
 color: var(--mn-L-text-color);
+#text-transform: lowercase !important;
+#font-variant: small-caps;
 }
 
+.dark h2{
+color: var(--mn-D-text-color) !important;
+}
 
 h3{
 font-family: Montserrat !important;
 text-transform: lowercase !important;
 font-variant: small-caps;
-color: var(--mn-L-text-color);
+#color: var(--mn-L3-text-color) !important;
 }
 .dark h3{
-color: var(--mn-D-text-color);
+#color: var(--mn-D3-text-color) !important;
 }
 
 .container{

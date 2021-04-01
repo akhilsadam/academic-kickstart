@@ -10,14 +10,14 @@ authors:
 superuser: true
 
 # Role/position
-role: Student
+role: Undergraduate Student
 
 # Organizations/Affiliations
 organizations:
 - name: The University of Texas at Austin
   url: "https://utexas.edu"
-- name: Sadam Homeschool
-  url: "https://sites.google.com/view/sadamhomeschool/home"
+#- name: Sadam Homeschool
+#  url: "https://sites.google.com/view/sadamhomeschool/home"
 #- name: Austin Community College
 #  url: "https://www.austincc.edu/"
 
@@ -25,16 +25,13 @@ organizations:
 bio: My research interests include computational physics and math. I also create simulations and games with Unity (https://unity.com/) and cinematic music with FL Studio (https://www.image-line.com/flstudio/).
 
 interests:
-- Computational Physics
-- Computational Mathematics
+- Computational Physics & Math
 - High-Energy Particle Physics
 - Magnetic Materials
 - Positron Emission Tomography
-- Graph Theory
+- 2D/3D Art and Animation
 - Game Development
-- Photogrammetry & 3D Modeling
-- Music Production
-- Film Scoring & Piano
+- Music, Film, & Piano Scoring
 
 education:
   courses:
@@ -77,13 +74,13 @@ email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Researchers
-- Visitors
+#user_groups:
+#- Researchers
+#- Visitors
 ---
-I'm a undergraduate student interested in computational physics.  
+I'm an undergraduate student interested in computational physics.  
 
-Currently, I am developing a novel whole-body Positron Emission Tomography detector as part of the UTKL Research Group (under Dr. Karol Lang, at the University of Texas at Austin).  
-As part of the Phonon Momentum Group (with Dr. John Markert, also at UT Austin), we are investigating the angular momentum of lattice phonons in ferrite samples. 
+At the UTKL Research Group, I am developing a novel whole-body plastic Positron Emission Tomography detector.  
+At the Phonon Momentum Group, I investigate the angular momentum of lattice phonons in ferrite samples. 
 
 I also explore simple computer science algorithms, produce physics simulations, art, and music.

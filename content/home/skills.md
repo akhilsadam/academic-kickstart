@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
-title = "Computer Skills"
+title = "Languages and Softwares"
 subtitle = ""
 
 # Showcase personal skills or business features.
@@ -87,6 +87,12 @@ subtitle = ""
   description = "50%"  
   
 [[feature]]
+  icon = "file-alt"
+  icon_pack = "fas"
+  name = "HLSL"
+  description = "30%"
+
+[[feature]]
   icon = "html5"
   icon_pack = "fab"
   name = "HTML"
@@ -107,20 +113,14 @@ subtitle = ""
 [[feature]]
   icon = "file-code"
   icon_pack = "fas"
-  name = "Visual Studio & VSCode"
+  name = "VS & VS Code"
   description = "60%"
 
 [[feature]]
   icon = "file-code"
   icon_pack = "fas"
-  name = "Jupyter Notebook"
+  name = "Jupyter"
   description = "70%"
-
-[[feature]]
-  icon = "file-code"
-  icon_pack = "fas"
-  name = "Anaconda"
-  description = "50%"
 
 [[feature]]
   icon = "terminal"
@@ -131,15 +131,8 @@ subtitle = ""
 [[feature]]
   icon = "terminal"
   icon_pack = "fas"
-  name = "Ubuntu"
+  name = "Ubuntu & Debian"
   description = "70%"
-
-[[feature]]
-  icon = "terminal"
-  icon_pack = "fas"
-  name = "Debian"
-  description = "50%"
-
 
 [[feature]]
   icon = "tv"
@@ -159,6 +152,11 @@ subtitle = ""
   name = "VMWare Player"
   description = "50%"
 
+[[feature]]
+  icon = "code-branch"
+  icon_pack = "fas"
+  name = "Git"
+  description = "90%"
 
 [[feature]]
   icon = "superpowers"
@@ -175,13 +173,13 @@ subtitle = ""
 [[feature]]
   icon = "dashcube"
   icon_pack = "fab"
-  name = "Substance (Allegorithmic)"
+  name = "Substance"
   description = "60%"
 
 [[feature]]
   icon = "dashcube"
   icon_pack = "fab"
-  name = "Quixel Bridge & Mixer"
+  name = "Quixel"
   description = "50%"
 
 [[feature]]
@@ -205,8 +203,8 @@ subtitle = ""
 [[feature]]
   icon = "dashcube"
   icon_pack = "fab"
-  name = "AliceVision Meshroom"
-  description = "70%" 
+  name = "Meshroom"
+  description = "60%" 
 
 [[feature]]
   icon = "dashcube"
@@ -268,6 +266,24 @@ subtitle = ""
   icon_pack = "fas"
   name = "NI Reaktor"
   description = "50%"
+
+[[feature]]
+  icon = "language"
+  icon_pack = "fas"
+  name = "English"
+  description = "100%"
+
+[[feature]]
+  icon = "language"
+  icon_pack = "fas"
+  name = "French/français"
+  description = "40%"
+
+[[feature]]
+  icon = "language"
+  icon_pack = "fas"
+  name = "Telugu (spoken)"
+  description = "85%"
 
 [advanced]
  # Custom CSS. 
