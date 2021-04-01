@@ -16,7 +16,7 @@ darks.setAttribute("href","../../"+darks.getAttribute("href"));
 });
 
 
-window.addEventListener('load', function styles() {
+window.addEventListener('DOMContentLoaded', function styles() {
 
 var isnight = true;
 

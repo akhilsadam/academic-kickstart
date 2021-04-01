@@ -72,11 +72,13 @@ font-size: 18px !important;
 }
 
 .Main{
-filter: invert(0) !important;
+#filter: invert(1) !important;
+#background: url(../../img/main0.jpeg) !important;
 }
 
 .dark .Main{
-filter: invert(1) !important;
+#filter: invert(0) !important;
+#background: url(../../img/main4.png) !important;
 }
 
 .Main::before{
@@ -227,7 +229,7 @@ transform: translateZ(4px) scale(0.9875);
 }
 
 .dark #bkgd{
-background: url(../../img/roc.png) !important;
+background: url(../../img/main4.png) !important;
 content: "";
 perspective: 320px;
 background-size: cover !important;

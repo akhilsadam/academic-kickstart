@@ -20,7 +20,7 @@ header:
 <div class="piano text bold">
 Piano Scores
 
- - <sty class="sty">two</sty> <note class="notet">(MUS 306 at UT Austin)</note> <a href="https://github.com/akhilsadam/musical-scores/blob/main/02/02_Composition.pdf">(pdf)</a> <audio controls style="width:300px;height:16px;" src="https://github.com/akhilsadam/musical-scores/blob/main/02/piano2.mp3?raw=true">Your browser does not support audio embeds.</audio>
+ - <sty class="sty">two</sty> <note class="notet">(MUS 306 at UT Austin)</note> <a href="https://github.com/akhilsadam/musical-scores/blob/main/02/02_Composition.pdf">(pdf)</a> <audio loading="lazy" controls style="width:300px;height:16px;" src="https://github.com/akhilsadam/musical-scores/blob/main/02/piano2.mp3?raw=true">Your browser does not support audio embeds.</audio>
  - <sty class="sty">one</sty> <note class="notet">(MUS 306 at UT Austin)</note> <a href="https://github.com/akhilsadam/musical-scores/blob/main/01/01_Composition.pdf">(pdf)</a>
 </div>
 <hr/>
@@ -31,14 +31,14 @@ Cinematic & Electronic Music
 <div class="cine blur" style="height:715px;margin-bottom:10px;">
   <div class="halign" style="width:49%;height:100%;">
 <div class="text bold exclusionf">Discography (including WIPs - works in progress)</div>
-    <iframe id="scplayer2" width="100%" height="100%" scrolling="yes" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/364822211&amp;color=%23ff0000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+    <iframe loading="lazy" id="scplayer2" width="100%" height="100%" scrolling="yes" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/364822211&amp;color=%23ff0000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
   </div>
   <div class="halign" style="width:50%;">
 <div class="text bold exclusionf">Competition Submissions (not comprehensive)</div>
     <div>
       <i class="text bold exclusionf">- Native Instruments showcase <a href="https://metapop.com/a132lw">(on Metapop)</a>.</i>
-      <iframe class="valign rhalign" width="100%" height="365"src="https://www.youtube.com/embed/XjHCxKRI-eU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe id="scplayer1" class="valign rhalign"  width="100%" height="320" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/957026233&amp;color=%23ff0000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+      <iframe loading="lazy" class="valign rhalign" width="100%" height="365"src="https://www.youtube.com/embed/XjHCxKRI-eU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe loading="lazy" id="scplayer1" class="valign rhalign"  width="100%" height="320" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/957026233&amp;color=%23ff0000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
     </div>
   </div>
 </div>
