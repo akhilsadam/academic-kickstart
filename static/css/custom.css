@@ -133,7 +133,7 @@ z-index: -2 !important;
     mix-blend-mode: hard-light;
 }
 .Main{
-background: rgba(255,0,0,1);
+background: rgba(0,0,0,0);
 height: 2000px;
 }
 .inner{
