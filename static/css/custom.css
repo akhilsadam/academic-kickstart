@@ -189,6 +189,7 @@ background: inherit;
 background-size: cover;
 content: "";
 #filter: blur(40px);
+box-shadow: 0 0 8px 8px white inset;
 }
 
 .Main::after{
@@ -209,6 +210,7 @@ perspective: 320px;
     background: inherit;
     background-size: cover;
     content: "";
+box-shadow: 0 0 8px 8px white inset;
 }
 
 .Main{
