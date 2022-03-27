@@ -62,13 +62,27 @@ mix-blend-mode: darken !important;
  color: #ff0000 !important;
 }
 .navbar-brand{
+left: -1em;
+top: 0em;
 color: rgb(250,250,250) !important;
 mix-blend-mode: color-dodge !important;
-font-family: Sakura Kei !important;
+font-family: Kiona !important;
 text-transform: capitalize !important;
-text-transform: lowercase !important;
-font-size: 24px !important;
-#font-size: 18px !important;
+#text-transform: uppercase !important;
+#font-size: 24px !important;
+font-size: 18px !important;
+#font-variant: small-caps;
+}
+
+.dark .navbar-brand{
+left: 4em;
+top: 0.15em;
+color: rgb(250,50,100) !important;
+font-family: Zenzai Itacha !important;
+text-transform: capitalize !important;
+#text-transform: uppercase !important;
+#font-size: 24px !important;
+font-size: 18px !important;
 font-variant: small-caps;
 }
 
@@ -198,8 +212,10 @@ position: fixed !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 background-size: 100% auto;
-    width: 98.75vw !important;
-    max-width: 98.75vw !important;
+    #width: 98.75vw !important;
+    #max-width: 98.75vw !important;
+    width: 100vw !important;
+    max-width: 100vw !important;
     height: 100%;
 overflow-x: hidden;
 overflow-y: hidden;
@@ -341,7 +357,8 @@ padding: 0;
 .form-group,.form-control{
 background: #fff !important;
 mix-blend-mode: difference;
-backdrop-filter: blur(40px);
+height: 100%;
+#backdrop-filter: blur(40px);
 }
 
 .dark .form-group,.dark .form-control{
@@ -703,6 +720,10 @@ filter: drop-shadow(5px 4px 2px black);
 -webkit-text-stroke: 0px red; /* width and color */
 color: #fff;
 #filter: drop-shadow(5px 4px 2px black);
+}
+
+#person-address{
+  font-family: Kiona;
 }
 
 .bold{
