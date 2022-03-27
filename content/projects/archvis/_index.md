@@ -14,6 +14,7 @@ header:
   image: ""
 ---
 <script defer src="../../js/scrollMain.js"></script>
+<link href="../../css/mixblend_disable.css" rel="stylesheet" type="text/css">
 <div class="text hc hblur">
 <br>-----------------------------------------------------------------------------------------------------------<br>
  -- Apologies! The portion of the site you are visiting is under construction!  I appreciate your patience! --<br>&emsp;&emsp;If you would rather have some information about my work, please refer to my old <a href="https://sites.google.com/view/sadamhomeschool/home/students/akhil-sadam">webpage</a>. Thank you!

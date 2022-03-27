@@ -1,0 +1,32 @@
+{{ $ := .root }}
+{{ $page := .page }}
+<div class="row featurette" style="justify-content: space-evenly; align-items: flex-start;">
+  {{ with $page.Title }}
+  <div class="col-md-12 section-heading">
+    <h1>{{ . | markdownify | emojify }}</h1>
+    {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
+  </div>
+  {{ end }}
+
+  {{ with $page.Content }}
+  <div class="col-md-12">
+    {{ . }}
+  </div>
+  {{ end }}
+
+  {{ range $page.Params.feature }}
+  {{ $pack := or .icon_pack "fas" }}
+  {{ $pack_prefix := $pack }}
+  {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+    {{ $pack_prefix = "fa" }}
+  {{ end }}
+  <div class="col-2 col-sm-1">
+    {{ with .icon }}<div id="skill_iconset" class="featurette-icon" style="font-size: 0.0rem !important;margin-left: auto;margin-right: auto;">
+			<i id="skill_icons" class="{{ $pack }} {{ $pack_prefix }}-{{ . }}" style="margin-left: auto;margin-right: auto;max-width: 12vmax;display:flex; justify-content: center;align-items: center;">
+			</i>
+		</div>{{ end }}
+    <h3 style="font-size: 1vmax !important;margin-left: auto;margin-right: auto;">{{ .name | markdownify | emojify }}</h3>
+    {{ with .description }}<p style="font-size: 1vmax !important;margin-left: auto;margin-right: auto;">{{ . | markdownify | emojify }}</p>{{ end }}
+  </div>
+  {{ end }}
+</div>

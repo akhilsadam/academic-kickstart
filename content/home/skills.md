@@ -192,13 +192,13 @@ subtitle = ""
   icon = "dashcube"
   icon_pack = "fab"
   name = "Cinema4D"
-  description = "30%"
+  description = "20%"
 
 [[feature]]
   icon = "dashcube"
   icon_pack = "fab"
   name = "Houdini"
-  description = "30%"
+  description = "20%"
 
 [[feature]]
   icon = "dashcube"

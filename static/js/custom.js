@@ -1,5 +1,9 @@
+alert("CustomJS");
 
-//alert("CustomJS");
+const scrollY = document.body.style.top;
+document.body.style.position = '';
+document.body.style.top = '';
+window.scrollTo(0, parseInt(scrollY || '0') * -1);
 
 
 //let element = document.createElement("div");
@@ -14,9 +18,9 @@ let article = document.querySelector('#top');
 let main = document.querySelector('#main');
 
 if(main){
-//alert(main);
+alert(main);
 }else{
-//alert("mian FAILED");
+alert("mian FAILED");
 }
 
 var offHeight = article.scrollHeight;
@@ -27,10 +31,10 @@ let offsetHeight = offHeight + 0.25*verticalHeight;
 let offd = offsetHeight + 'px'
 
 if(offsetHeight){
-//alert(offsetHeight);
-//alert("Height success");
+alert(offsetHeight);
+alert("Height success");
 }else{
-//alert("Height FAILED");
+alert("Height FAILED");
 }
 main.style.setProperty("height",offd, "important");
 //document.getElementById('main').style.setProperty("", "red", "important"); = offsetWidth+'px';

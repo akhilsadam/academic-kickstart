@@ -14,14 +14,17 @@ header:
   image: ""
 ---
 <script defer src="../../js/scrollMain.js"></script>
+<link href="../../css/mixblend_disable.css" rel="stylesheet" type="text/css">
 <h1>Music Composition</h1>
 <hr/>
 <div class="music">
 <div class="piano text bold">
-Piano Scores
+Scores
 
- - <sty class="sty">two</sty> <note class="notet">(MUS 306 at UT Austin)</note> <a href="https://github.com/akhilsadam/musical-scores/blob/main/02/02_Composition.pdf">(pdf)</a> <audio loading="lazy" controls style="width:300px;height:16px;" src="https://github.com/akhilsadam/musical-scores/blob/main/02/piano2.mp3?raw=true">Your browser does not support audio embeds.</audio>
- - <sty class="sty">one</sty> <note class="notet">(MUS 306 at UT Austin)</note> <a href="https://github.com/akhilsadam/musical-scores/blob/main/01/01_Composition.pdf">(pdf)</a>
+ - <sty class="sty">la cour de l'empereur&nbsp;&nbsp;&nbsp;&nbsp;</sty> <note class="notet">(MUS 306 at UT Austin)</note>&emsp;&emsp;&emsp;<a href="https://github.com/akhilsadam/musical-scores/blob/main/04/ThemeAndVariation-la_cour_de_l'empereur.pdf">(pdf)</a> <audio loading="lazy" controls style="width:300px;height:16px;" src="https://github.com/akhilsadam/musical-scores/blob/main/04/la_cour_de_l'empereur-Theme&Variation.mp3?raw=true">Your browser does not support audio embeds.</audio>
+ - <sty class="sty">yangqin solo&emsp;&emsp;&emsp;&nbsp; </sty> <note class="notet">(MUS 306 at UT Austin)</note>&emsp;&emsp;&emsp; <a href="https://github.com/akhilsadam/musical-scores/blob/main/03/03_Solo.pdf">(pdf)</a> <audio loading="lazy" controls style="width:300px;height:16px;" src="https://github.com/akhilsadam/musical-scores/blob/main/03/03_Solo.mp3?raw=true">Your browser does not support audio embeds.</audio>
+ - <sty class="sty">two&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </sty> <note class="notet">(MUS 306 at UT Austin)</note>&emsp;&emsp;&emsp; <a href="https://github.com/akhilsadam/musical-scores/blob/main/02/02_Composition.pdf">(pdf)</a> <audio loading="lazy" controls style="width:300px;height:16px;" src="https://github.com/akhilsadam/musical-scores/blob/main/02/piano2.mp3?raw=true">Your browser does not support audio embeds.</audio>
+ - <sty class="sty">one&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; </sty> <note class="notet">(MUS 306 at UT Austin)</note>&emsp;&emsp;&emsp; <a href="https://github.com/akhilsadam/musical-scores/blob/main/01/01_Composition.pdf">(pdf)</a>
 </div>
 <hr/>
 <div class="cine text bold">

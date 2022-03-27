@@ -14,6 +14,7 @@ header:
   image: ""
 ---
 <script defer src="../../js/scrollMain.js"></script>
+<link href="../../css/mixblend_disable.css" rel="stylesheet" type="text/css">
 <h1>Game and Simulation Development</h1>
 <hr/>
 <div class="portfolio">

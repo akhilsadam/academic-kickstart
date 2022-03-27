@@ -14,6 +14,7 @@ header:
   image: ""
 ---
 <script defer src="../../js/scrollMain.js"></script>
+<link href="../../css/mixblend_disable.css" rel="stylesheet" type="text/css">
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
@@ -92,5 +93,5 @@ Algorithm Research/Collection (personal, on hiatus)
 <p class="text hc" style="position:relative; left: 38%; width: 100%;font-size:large;margin:0 auto;">Thank you for reading this far.</p>
 <p class="text hc" style="position:relative; left: 37%; width: 100%;font-size:large;">Advice or questions appreciated!</p>
 <p class="text hc" style="position:relative; left: 13%; width: 100%;font-size:large;margin:0 auto;">Content on these & following pages have <u>all rights reserved</u> by their respective holders as intellectual property.</p>
-<p class="text hc" style="position:relative; left: 20%; width: 100%;font-size:medium;">Please do not copy/publish or otherwise disseminate this information without explict permission.</p>
+<p class="text hc" style="position:relative; left: 20%; width: 100%;font-size:medium;">Please do not copy/publish or otherwise disseminate this information without explicit permission.</p>
 </div>
