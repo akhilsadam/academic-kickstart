@@ -1,0 +1,1 @@
+academic import --bibtex my_publications.bib

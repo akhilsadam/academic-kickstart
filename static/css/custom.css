@@ -348,7 +348,8 @@ a.nav-link span {
 .bio,
 .exp,
 .skill,
-.kontakt {
+.kontakt,
+.publication {
     /* color: rgb(250, 250, 250); */
     /* mix-blend-mode: difference; */
     background: inherit !important;
