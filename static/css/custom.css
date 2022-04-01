@@ -4,6 +4,44 @@
     --mn-L3-text-color: #0c0c0c;
     --mn-D3-text-color: #c0c0c0;
     --mn-red-color: red;
+    --kotoba: Kiona Regular, Aron Grotesque Light, Montserrat Regular;
+    --aijiro: rgba(235, 246, 247, 1);
+    --aijiro-alph: rgba(235, 246, 247, 0.15);
+    --mashiro: rgb(255, 255, 255);
+    --zoge-iro: rgb(255, 255, 240);
+    --hakushi: rgb(249, 251, 255);
+    --hakushi-alph: rgb(249, 251, 255, 0.5);
+    --mizu-iro: rgb(134, 171, 165);
+    --gunjo-iro: rgb(93, 140, 174);
+    --sora-iro: rgb(77, 143, 172);
+    --chigusa-iro: rgb(49, 117, 137);
+    --benimidori: rgb(120, 119, 155);
+    --kurobeni: rgb(35, 25, 30);
+    --rurikon: rgb(27, 41, 75);
+    --rurikon-alph: rgba(27, 41, 75, 0.15);
+    --konjo-iro: rgb(0, 49, 113);
+    --ao: rgb(0, 0, 255);
+    --omeshi-onando: rgb(61, 76, 81);
+    --tetsuonando: rgb(43, 55, 54);
+    --sakuranezumi: rgb(172, 129, 118);
+    --ginshu: rgb(188, 45, 41);
+    --azuki-iro: rgb(103, 36, 34);
+    --enji-iro: rgb(157, 41, 51);
+    --akabeni: rgb(195,39,43);
+    --shinshu : rgb(143,29,33);
+    --karakurenai : rgb(201,33,55);
+    --kokushoku: rgb(23, 20, 18);
+    --kokushoku-alph: rgba(23, 20, 18, 0.2);
+    /* not accurate */
+    --aijiro-haiiro: #A0A3A4;
+    --haiiro: rgba(91, 90, 92, 0.5);
+    --sukaitsuri-iro: rgb(220, 240, 250);
+    /* default */
+    --nandemonai: rgba(0, 0, 0, 0);
+    --shiro: var(--hakushi);
+    --kuro: rgb(0, 0, 0);
+    --shiro-kotoba: var(--aijiro);
+    --kuro-kotoba: var(--kurobeni);
 }
 
 html,
@@ -64,6 +102,20 @@ a.nav-link span {
 
 .nav-link.dropdown-toggle::after {
     color: #ff0000 !important;
+}
+
+.d-none.d-lg-inline-flex{
+left: 0px;
+}
+
+@media(max-width:1440px)
+{
+.nav-item{
+left: -4rem !important;
+}
+.navbar-brand{
+left: 4rem !important;
+}
 }
 
 .navbar-brand {
@@ -366,12 +418,14 @@ a.nav-link span {
 }
 
 .skill .container .row.featurette .col-2 {
-    display: none;
+    display: block !important; 
+    /*filter: hue-rotate(-18deg) contrast(2);*/
+    /*change above to none and remove filter if you want dropdown*/
 }
 
 .skill .container .row.featurette:hover .col-2 {
     display: block;
-    filter: hue-rotate(-18deg) contrast(2);
+    /*filter: hue-rotate(-18deg) contrast(2);*/
 }
 
 .skill .container .row.featurette.section-heading.h1 :hover .section-heading.h1 {}
@@ -400,14 +454,37 @@ a.nav-link span {
 }
 
 #skill_icons {
-    color: rgba(255, 100, 50, 1);
+    /*color: rgba(255, 100, 50, 1);*/
     background: none !important;
     mix-blend-mode: color-dodge;
     padding: 0;
 }
 
 .featurette-icon {
-    /* mix-blend-mode: color; */
+    color: var(--mizu-iro) !important;
+    -webkit-text-stroke:1px var(--kokushoku);
+}
+
+.dark .featurette-icon {
+    color: var(--sora-iro) !important;
+   -webkit-text-stroke:1px var(--kokushoku);
+}
+
+.featurette-icon:hover {
+    /*mix-blend-mode: difference;*/
+    color: var(--enji-iro) !important;
+    -webkit-text-stroke:1px var(--kokushoku);
+filter: contrast(2) drop-shadow(1px 1px 0.5px var(--kokushoku));
+}
+
+.dark .featurette-icon:hover {
+color: var(--akabeni) !important;
+-webkit-text-stroke:0px var(--kokushoku);
+filter: brightness(2) drop-shadow(0.5px 0.5px 0.1px var(--kokushoku));
+}
+
+.dark #skill_icons.fab.fa-java{
+-webkit-text-stroke:0px var(--kokushoku) !important;
 }
 
 .form-group,
@@ -823,4 +900,16 @@ h3 {
 
 .dark .bold {
     font-weight: normal;
+}
+
+.modal-content{
+background: transparent !important;
+backdrop-filter: blur(40px);
+}
+
+.alert{
+background: transparent !important;
+}
+.dark .alert{
+filter: invert(1);
 }
