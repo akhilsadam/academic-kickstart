@@ -108,13 +108,23 @@ a.nav-link span {
 left: 0px;
 }
 
-@media(max-width:1440px)
+@media(max-width:1440px, min-width:992px)
 {
 .nav-item{
 left: -4rem !important;
 }
 .navbar-brand{
 left: 4rem !important;
+}
+}
+
+@media(max-width:992px)
+{
+.nav-item{
+left: -4rem !important;
+}
+.navbar-brand{
+left: 0rem !important;
 }
 }
 
