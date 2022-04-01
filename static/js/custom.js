@@ -15,10 +15,11 @@ let main = document.getElementById('main');
 var offHeight = article.scrollHeight;
 //var vWidth = document.documentElement.clientWidth;
 var verticalHeight = document.documentElement.clientHeight;
-let offsetHeight = offHeight + 0.25*verticalHeight;
+let offsetHeight = offHeight + 50;
+// + 0.25*verticalHeight;
 //let offsetWidth = vWidth;
 
-
+//alert(offHeight);
 
 let offd = offsetHeight + 'px'
 
@@ -30,23 +31,29 @@ let offd = offsetHeight + 'px'
 //}
 
 main.style.setProperty("height",offd, "important");
+main.style.setProperty("height",offd, "important");
 //document.getElementById('main').style.setProperty("", "red", "important"); = offsetWidth+'px';
 var gHeight = main.offsetHeight;
 
 console.log("Height");
 
-if(gHeight){
+//if(gHeight){
 //alert(gHeight);
 //alert("Height success");
-}else{
+//}else{
 //alert("Height FAILED");
+//}
 }
-}
 
 
 
 
-document.addEventListener("DOMContentLoaded", function(event) { 
+//document.addEventListener("DOMContentLoaded", function(event) {
+//	resetHeight();
+//	document.querySelector(".skill").addEventListener("hover",resetHeight());
+//});
+
+window.addEventListener('load', function() {
 	resetHeight();
 	document.querySelector(".skill").addEventListener("hover",resetHeight());
 });
