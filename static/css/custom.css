@@ -118,7 +118,7 @@ left: 4rem !important;
 }
 }
 
-@media(max-width:992px)
+@media(max-width:991.98px)
 {
 .nav-item{
 left: -4rem !important;
@@ -192,6 +192,13 @@ left: 0rem !important;
     z-index: -2 !important;
 }
 
+@media (max-aspect-ratio:16/9)
+{
+.Main{
+background-size: cover !important;
+}
+}
+
 .Main,
 .inner {
     position: absolute;
@@ -230,7 +237,8 @@ left: 0rem !important;
     /* background: rgba(255, 255, 255, 0.0) !important; */
     /* background: rgba(255, 255, 0, 1.0) !important; */
     backdrop-filter: blur(0px);
-    opacity: 0.2;
+    opacity: 0.3;
+    image-rendering: crisp-edges;
 }
 
 .dark .Main::after {
