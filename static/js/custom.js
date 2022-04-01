@@ -48,10 +48,9 @@ console.log("Height");
 
 
 
-//document.addEventListener("DOMContentLoaded", function(event) {
-//	resetHeight();
-//	document.querySelector(".skill").addEventListener("hover",resetHeight());
-//});
+document.addEventListener("DOMContentLoaded", function(event) {
+	resetHeight();
+});
 
 window.addEventListener('load', function() {
 	resetHeight();
