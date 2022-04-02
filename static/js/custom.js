@@ -49,10 +49,43 @@ console.log("Height");
 
 
 document.addEventListener("DOMContentLoaded", function(event) {
-	resetHeight();
+	resetHeight();	
 });
 
 window.addEventListener('load', function() {
 	resetHeight();
 	//document.querySelector(".skill").addEventListener("hover",resetHeight());
 });
+
+function playAA(){
+console.log('PLAYAA');
+	const scs = document.querySelectorAll('.music-l');
+scs.forEach(element => {
+console.log(element);
+var widget1 = SC.Widget(element);
+	widget1.pause();
+});
+	const scs2 = document.querySelectorAll('.music-d');
+scs2.forEach(element => {
+console.log(element);
+var widget2 = SC.Widget(element);
+	widget2.pause();
+});
+
+
+var toggle = document.querySelector('.js-dark-toggle');
+    if (toggle.children[0].className === "fas fa-moon") {
+scs.forEach(element => {
+console.log(element);
+var widget1 = SC.Widget(element);
+	widget1.play();
+});
+    } else {
+scs2.forEach(element => {
+console.log(element);
+var widget2 = SC.Widget(element);
+	widget2.play();
+});
+    }
+
+}

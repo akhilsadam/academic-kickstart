@@ -33,7 +33,6 @@ var isnight = true;
 	    isnight=false;
         }
 
-
 //alert(isSiteThemeDark);
 if(isSiteThemeDark)
 {
