@@ -50,12 +50,31 @@ console.log("Height");
 
 document.addEventListener("DOMContentLoaded", function(event) {
 	resetHeight();	
+	stopALL();
 });
 
 window.addEventListener('load', function() {
 	resetHeight();
 	//document.querySelector(".skill").addEventListener("hover",resetHeight());
+	stopALL();
 });
+
+
+function stopALL(){
+	const scs = document.querySelectorAll('.music-l');
+scs.forEach(element => {
+console.log(element);
+var widget1 = SC.Widget(element);
+	widget1.pause();
+});
+	const scs2 = document.querySelectorAll('.music-d');
+scs2.forEach(element => {
+console.log(element);
+var widget2 = SC.Widget(element);
+	widget2.pause();
+});
+
+}
 
 function playAA(){
 console.log('PLAYAA');
