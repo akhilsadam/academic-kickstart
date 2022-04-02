@@ -28,91 +28,91 @@ header:
             data-pswp-width="1920" 
             data-pswp-height="1080"
             target="_blank">
-            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ArtModel1.jpg?raw=true" alt="" width="192" height="1"/>
+            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ArtModel1.jpg?raw=true" alt="" width="192" height="108"/>
         </a>
   <a href="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelBazooka1.jpg?raw=true" 
             data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelBazooka1.jpg?raw=true"
             data-pswp-width="1920" 
             data-pswp-height="1080"
             target="_blank">
-            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelBazooka1.jpg?raw=true" alt="" width="192" height="1"/>
+            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelBazooka1.jpg?raw=true" alt="" width="192" height="108"/>
         </a>
   <a href="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelBazooka2.jpg?raw=true" 
             data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelBazooka2.jpg?raw=true"
             data-pswp-width="1920" 
             data-pswp-height="1080"
             target="_blank">
-            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelBazooka2.jpg?raw=true" alt="" width="192" height="1"/>
+            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelBazooka2.jpg?raw=true" alt="" width="192" height="108"/>
         </a>
   <a href="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelRifle1.jpg?raw=true" 
             data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelRifle1.jpg?raw=true"
             data-pswp-width="1920" 
             data-pswp-height="1080"
             target="_blank">
-            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelRifle1.jpg?raw=true" alt="" width="192" height="1"/>
+            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelRifle1.jpg?raw=true" alt="" width="192" height="108"/>
         </a>
   <a href="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelRifle2.jpg?raw=true" 
             data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelRifle2.jpg?raw=true"
             data-pswp-width="1920" 
             data-pswp-height="1080"
             target="_blank">
-            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelRifle2.jpg?raw=true" alt="" width="192" height="1"/>
+            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelRifle2.jpg?raw=true" alt="" width="192" height="108"/>
         </a>
   <a href="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelSparrow1.jpg?raw=true" 
             data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelSparrow1.jpg?raw=true"
             data-pswp-width="1920" 
             data-pswp-height="1080"
             target="_blank">
-            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelSparrow1.jpg?raw=true" alt="" width="192" height="1"/>
+            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelSparrow1.jpg?raw=true" alt="" width="192" height="108"/>
         </a>
   <a href="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelSparrow2.jpg?raw=true" 
             data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelSparrow2.jpg?raw=true"
             data-pswp-width="1920" 
             data-pswp-height="1080"
             target="_blank">
-            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelSparrow2.jpg?raw=true" alt="" width="192" height="1"/>
+            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelSparrow2.jpg?raw=true" alt="" width="192" height="108"/>
         </a>
   <a href="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelSparrow3.jpg?raw=true" 
             data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelSparrow3.jpg?raw=true"
             data-pswp-width="1920" 
             data-pswp-height="1080"
             target="_blank">
-            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelSparrow3.jpg?raw=true" alt="" width="192" height="1"/>
+            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelSparrow3.jpg?raw=true" alt="" width="192" height="108"/>
         </a>
   <a href="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelSparrow4.jpg?raw=true" 
             data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelSparrow4.jpg?raw=true"
             data-pswp-width="1920" 
             data-pswp-height="1080"
             target="_blank">
-            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelSparrow4.jpg?raw=true" alt="" width="192" height="1"/>
+            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelSparrow4.jpg?raw=true" alt="" width="192" height="108"/>
         </a>
   <a href="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelSparrow5.jpg?raw=true" 
             data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelSparrow5.jpg?raw=true"
             data-pswp-width="1920" 
             data-pswp-height="1080"
             target="_blank">
-            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelSparrow5.jpg?raw=true" alt="" width="192" height="1"/>
+            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelSparrow5.jpg?raw=true" alt="" width="192" height="108"/>
         </a>
   <a href="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelUAV1.jpg?raw=true" 
             data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelUAV1.jpg?raw=true"
             data-pswp-width="1920" 
             data-pswp-height="1080"
             target="_blank">
-            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelUAV1.jpg?raw=true" alt="" width="192" height="1"/>
+            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelUAV1.jpg?raw=true" alt="" width="192" height="108"/>
         </a>
   <a href="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelUAV2.jpg?raw=true" 
             data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelUAV2.jpg?raw=true"
             data-pswp-width="1920" 
             data-pswp-height="1080"
             target="_blank">
-            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelUAV2.jpg?raw=true" alt="" width="192" height="1"/>
+            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelUAV2.jpg?raw=true" alt="" width="192" height="108"/>
         </a>
   <a href="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelUAV3.jpg?raw=true" 
             data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelUAV3.jpg?raw=true"
             data-pswp-width="1920" 
             data-pswp-height="1080"
             target="_blank">
-            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelUAV3.jpg?raw=true" alt="" width="192" height="1"/>
+            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/models/ModelUAV3.jpg?raw=true" alt="" width="192" height="108"/>
         </a>
 </masonry-layout>
 </div>

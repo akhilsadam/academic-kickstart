@@ -626,16 +626,6 @@ i.fas.fa-search {
 
 .wdmargin {
     padding: 1em 1em !important;
-    backdrop-filter: blur(14px) !important;
-    background-blend-mode: overlay !important;
-    background-color: rgba(255, 255, 255, 0.3) !important;
-}
-
-.dark .wdmargin {
-    padding: 1em 1em !important;
-    backdrop-filter: blur(14px) !important;
-    /* background-blend-mode: overlay !important; */
-    background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
 .nomargins {
@@ -813,8 +803,17 @@ h3 {
 }
 
 .hblur {
-    backdrop-filter: blur(20px);
+    background: rgba(255,255,255,0.9);
     overflow: hidden;
+    border-radius: 5px;
+    border: 10px var(--kokushoku) !important;
+}
+
+.dark .hblur {
+    background: rgba(0,0,0,0.9);
+    overflow: hidden;
+    border-radius: 5px;
+    border: 10px var(--hakushi)  !important;
 }
 
 .lblur {

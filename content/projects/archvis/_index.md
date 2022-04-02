@@ -28,89 +28,121 @@ header:
 <div class="portfolio">
 <div class="pswp-gallery  pswp-gallery--single-column" id="gallery--art">
 <masonry-layout cols="7" gap="5px">
+  <video src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/arch2/StudyBackyard_1_Enscape_2021-01-27.mp4?raw=true" 
+            controls="controls" muted="muted"
+            data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/arch2/StudyBackyard_1_Enscape_2021-01-27.mp4?raw=true"
+            data-pswp-width="1920" 
+            data-pswp-height="1080"
+            target="_blank"
+            width="1920" height="1080"/>
+        </video>
+  <video src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/arch2/StudyBackyard_V1_Enscape_2021-01-27.mp4?raw=true" 
+            controls="controls" muted="muted"
+            data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/arch2/StudyBackyard_V1_Enscape_2021-01-27.mp4?raw=true"
+            data-pswp-width="1920" 
+            data-pswp-height="1080"
+            target="_blank"
+            width="1920" height="1080"/>
+        </video>
+  <video src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/arch2/StudyBackyard_V2_Enscape_2021-01-27.mp4?raw=true" 
+            controls="controls" muted="muted"
+            data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/arch2/StudyBackyard_V2_Enscape_2021-01-27.mp4?raw=true"
+            data-pswp-width="1920" 
+            data-pswp-height="1080"
+            target="_blank"
+            width="1920" height="1080"/>
+        </video>
+  <video src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/arch2/StudyBackyard_V3_Enscape_2021-01-27.mp4?raw=true" 
+            controls="controls" muted="muted"
+            data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/arch2/StudyBackyard_V3_Enscape_2021-01-27.mp4?raw=true"
+            data-pswp-width="1920" 
+            data-pswp-height="1080"
+            target="_blank"
+            width="1920" height="1080"/>
+        </video>
   <a href="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelBathroomMod.jpg?raw=true" 
             data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelBathroomMod.jpg?raw=true"
             data-pswp-width="1920" 
             data-pswp-height="1080"
             target="_blank">
-            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelBathroomMod.jpg?raw=true" alt="" width="192" height="1"/>
+            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelBathroomMod.jpg?raw=true" alt="" width="192" height="108"/>
         </a>
   <a href="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelBathroomModKneeHigh.jpg?raw=true" 
             data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelBathroomModKneeHigh.jpg?raw=true"
             data-pswp-width="1920" 
             data-pswp-height="1080"
             target="_blank">
-            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelBathroomModKneeHigh.jpg?raw=true" alt="" width="192" height="1"/>
+            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelBathroomModKneeHigh.jpg?raw=true" alt="" width="192" height="108"/>
         </a>
   <a href="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelBathroomModTopView.jpg?raw=true" 
             data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelBathroomModTopView.jpg?raw=true"
             data-pswp-width="1920" 
             data-pswp-height="1080"
             target="_blank">
-            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelBathroomModTopView.jpg?raw=true" alt="" width="192" height="1"/>
+            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelBathroomModTopView.jpg?raw=true" alt="" width="192" height="108"/>
         </a>
   <a href="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelBathroomOriginal.jpg?raw=true" 
             data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelBathroomOriginal.jpg?raw=true"
             data-pswp-width="1920" 
             data-pswp-height="1080"
             target="_blank">
-            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelBathroomOriginal.jpg?raw=true" alt="" width="192" height="1"/>
+            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelBathroomOriginal.jpg?raw=true" alt="" width="192" height="108"/>
         </a>
   <a href="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelBathroomOriginalTopView.jpg?raw=true" 
             data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelBathroomOriginalTopView.jpg?raw=true"
             data-pswp-width="1920" 
             data-pswp-height="1080"
             target="_blank">
-            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelBathroomOriginalTopView.jpg?raw=true" alt="" width="192" height="1"/>
+            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelBathroomOriginalTopView.jpg?raw=true" alt="" width="192" height="108"/>
         </a>
   <a href="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelStairs1.jpg?raw=true" 
             data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelStairs1.jpg?raw=true"
             data-pswp-width="1920" 
             data-pswp-height="1080"
             target="_blank">
-            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelStairs1.jpg?raw=true" alt="" width="192" height="1"/>
+            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelStairs1.jpg?raw=true" alt="" width="192" height="108"/>
         </a>
   <a href="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelStairs2.jpg?raw=true" 
             data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelStairs2.jpg?raw=true"
             data-pswp-width="1920" 
             data-pswp-height="1080"
             target="_blank">
-            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelStairs2.jpg?raw=true" alt="" width="192" height="1"/>
+            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelStairs2.jpg?raw=true" alt="" width="192" height="108"/>
         </a>
   <a href="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelStairs3(withoutStairs).jpg?raw=true" 
             data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelStairs3(withoutStairs).jpg?raw=true"
             data-pswp-width="1920" 
             data-pswp-height="1080"
             target="_blank">
-            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelStairs3(withoutStairs).jpg?raw=true" alt="" width="192" height="1"/>
+            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/HouseRemodelStairs3(withoutStairs).jpg?raw=true" alt="" width="192" height="108"/>
         </a>
   <a href="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/LightRemodel1.jpg?raw=true" 
             data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/LightRemodel1.jpg?raw=true"
             data-pswp-width="1920" 
             data-pswp-height="1080"
             target="_blank">
-            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/LightRemodel1.jpg?raw=true" alt="" width="192" height="1"/>
+            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/LightRemodel1.jpg?raw=true" alt="" width="192" height="108"/>
         </a>
   <a href="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/LightRemodel2.jpg?raw=true" 
             data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/LightRemodel2.jpg?raw=true"
             data-pswp-width="1358" 
             data-pswp-height="576"
             target="_blank">
-            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/LightRemodel2.jpg?raw=true" alt="" width="135" height="2"/>
+            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/LightRemodel2.jpg?raw=true" alt="" width="135" height="57"/>
         </a>
   <a href="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/LightRemodel3.jpg?raw=true" 
             data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/LightRemodel3.jpg?raw=true"
             data-pswp-width="1920" 
             data-pswp-height="1080"
             target="_blank">
-            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/LightRemodel3.jpg?raw=true" alt="" width="192" height="1"/>
+            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/LightRemodel3.jpg?raw=true" alt="" width="192" height="108"/>
         </a>
   <a href="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/LightRemodel_Actual.jpg?raw=true" 
             data-pswp-src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/LightRemodel_Actual.jpg?raw=true"
             data-pswp-width="4019" 
             data-pswp-height="2603"
             target="_blank">
-            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/LightRemodel_Actual.jpg?raw=true" alt="" width="401" height="1"/>
+            <img src="https://raw.githubusercontent.com/akhilsadam/WebFiles/master/archvis/LightRemodel_Actual.jpg?raw=true" alt="" width="401" height="260"/>
         </a>
 </masonry-layout>
 </div>

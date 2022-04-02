@@ -20,7 +20,7 @@ header:
 <iframe loading="lazy" width="100%" height="600" src="https://www.youtube.com/embed/NbwzUi0B2qQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <hr/>
 <div class="text blur" style="position:relative; left: 2.5%;width: 95%;">Using <a href="https://unity.com/">Unity</a>, <a href="https://www.blender.org/">Blender</a>, and <a href="https://www.substance3d.com/">Substance</a>. Documentation available here :<a href="https://github.com/akhilsadam/Portfolio/blob/master/2019Portfolio.pdf">Portfolio.pdf</a>. Music credits to <a href="https://soundcloud.com/sakuzyo">Sakuzyo</a>.
-An open-world game not documented here was also in-progress at that time.
+An FPS game under development is not documented here.
 <br><br>
 All projects are currently on hiatus due to research obligations.
 </div>

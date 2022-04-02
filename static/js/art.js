@@ -123,3 +123,11 @@ function getContainer() {
   document.body.appendChild(pswpContainer);
   return pswpContainer;
 }
+
+
+const vids = document.querySelectorAll('video');
+vids.forEach(element => {
+  element.addEventListener('click', event => {
+  element.requestFullscreen();
+});
+});

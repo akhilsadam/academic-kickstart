@@ -19,7 +19,6 @@ header:
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 <h1>Research</h1>
-<hr class="nomargins"/>
 <div class="utkl hblur wdmargin">
 <div class="text bold">
 Positron Emission Tomography Research: Whole-Body PET <note class="notet">(in progress, under Dr.Karol Lang of UT Austin, Tools:Geant4,ROOT,&Python)</note>
@@ -31,7 +30,7 @@ Positron Emission Tomography Research: Whole-Body PET <note class="notet">(in pr
  <note class="notet" style="position:relative; left: 39%;margin:0 auto;">Copyright © 2017 UTKL Research Group <a href="http://www.hep.utexas.edu/utkl/index.html">(Website)</a></note>
 </div>
 </div>
-<hr class="nomargins"/>
+<br>
 <div class="utm hblur wdmargin">
 <div class="text bold">
 Measurement of Phonon Angular Momentum <note class="notet">(in progress, under Dr.John Markert of UT Austin, Tools:Python)</note>
@@ -43,7 +42,7 @@ Measurement of Phonon Angular Momentum <note class="notet">(in progress, under D
  <note class="notet" style="position:relative; left: 28.3%;margin:0 auto;">Copyright © 2020 Dr.John Markert et. al. <a href="https://web2.ph.utexas.edu/~markweb/">(Magnetism and Superconductivity Group Website)</a></note>
 </div>
 </div>
-<hr class="nomargins" />
+<br/>
 <div class="algor hblur wdmargin">
 <div class="text bold">
 Algorithm Research/Collection (personal, on hiatus)

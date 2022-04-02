@@ -54,5 +54,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 window.addEventListener('load', function() {
 	resetHeight();
-	document.querySelector(".skill").addEventListener("hover",resetHeight());
+	//document.querySelector(".skill").addEventListener("hover",resetHeight());
 });
