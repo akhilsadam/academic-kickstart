@@ -246,26 +246,32 @@ background-size: cover !important;
     backdrop-filter: blur(0px);
 }
 
-.Main::before {
-    /* background: rgba(255, 255, 0, 1.0); */
-    perspective: 320px;
-    z-index: -2;
-    transform: translateZ(-4px);
-    position: absolute;
-    top: 0;
+.mMain {
+    background: url("../img/a.png") !important;
+    z-index: -1 !important;
+    position: fixed;
+    top: 0px;
     left: 0;
     margin-top: 0px;
     margin-left: 0px;
     margin-bottom: 0px;
     margin-right: 0px;
-    display: flex;
+    display: none;
     overflow: hidden;
-    height: 100%;
     width: 100%;
-    /* background: inherit; */
-    /* background-size: cover; */
-    /* content: ""; */
-    /* filter: blur(40px); */
+    height:100%;
+    position: absolute !important;
+    background-attachment: fixed !important;
+    background-position: 50% 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% auto;
+    content:"";
+    mix-blend-mode:normal; 
+    isolation: isolate;
+}
+
+.main-music-light{
+color: var(--aijiro);
 }
 
 .Main::after {

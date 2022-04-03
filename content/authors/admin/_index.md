@@ -26,9 +26,9 @@ bio: My research interests include computational physics and math. I also create
 
 interests:
 - Computational Physics & Math
-- High-Energy Particle Physics
+- Particle Physics, <a class="a2" href="https://en.wikipedia.org/wiki/Positron_emission_tomography">PET</a>
 - Magnetic Materials
-- Positron Emission Tomography
+- <a class="a2" href="https://en.wikipedia.org/wiki/Natural_language_processing">NLP</a>, <a class="a2" href="https://en.wikipedia.org/wiki/Procedural_generation">Procedural Generation</a>
 - 2D/3D Art and Animation
 - Game Development
 - Music, Film, & Piano Scoring
@@ -81,7 +81,7 @@ email: ""
 <link href="../../css/sp.css" rel="stylesheet" type="text/css">
 <input type="checkbox" id="btnControl">
 <label class="main-l" for="btnControl">
-<div class="main-a" onclick="playAA()">
+<div class="main-a">
 I'm an undergraduate student interested in computational physics.  
 
 At the UTKL Research Group, I am developing a novel whole-body plastic Positron Emission Tomography detector.  
@@ -89,6 +89,46 @@ At the Phonon Momentum Group, I investigate the angular momentum of lattice phon
 
 I also explore simple computer science algorithms, produce physics simulations, art, and music.
 </div>
+<form class='secret'>
+    <label for="pswd">Numeric Code: </label>
+    <input type="number" id="pswd"></input>
+    <input type="button" value="Submit" onclick="checkPswd();" />
+</form>
+<script type="text/javascript">
+function checkPswd() {
+        var confirmPassword = "573";
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+             document.querySelector(".secret").style['display']='none';
+	     document.querySelector(".main-music").style['display']='block';
+	     document.querySelector(".mMain").style['display']='block';
+	     playAA();
+        }
+        else{
+            alert("↑↑↓↓←→←→BA");
+        }
+}
+function toggle(x) {
+  if (document.querySelector(".main-a").style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function rtoggle(x) {
+  if (document.querySelector(".main-a").style.display === "none") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+document.querySelector(".avatar").addEventListener("click", function() {
+	document.querySelector(".main-music").style['display']='none';
+	document.querySelector(".mMain").style['display']='none';
+	 rtoggle(document.querySelector(".secret"));
+	 toggle(document.querySelector(".main-a"));
+});
+</script>
 <div class="main-music">
 <br>
 <div class="main-music-light">

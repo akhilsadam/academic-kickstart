@@ -1,3 +1,6 @@
+stopALL();
+
+
 function resetHeight(){
 
 let article = document.querySelector('.inner');
@@ -98,12 +101,15 @@ scs.forEach(element => {
 console.log(element);
 var widget1 = SC.Widget(element);
 	widget1.play();
+document.querySelector('.mMain').style.setProperty('background', 'url("../img/a.png")', 'important');
+document.querySelector('.mMain').style.setProperty('background-position', '50% 60%', 'important');
 });
     } else {
 scs2.forEach(element => {
 console.log(element);
 var widget2 = SC.Widget(element);
 	widget2.play();
+document.querySelector('.mMain').style.setProperty('background', 'transparent', 'important');
 });
     }
 
