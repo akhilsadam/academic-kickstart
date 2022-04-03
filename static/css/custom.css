@@ -930,8 +930,30 @@ h3 {
 }
 
 .modal-content{
-background: transparent !important;
+background: rgba(0,0,0,0) !important;
+/*background: url("/../../img/test2.jpg") !important;*/
+}
+
+.dark .modal-content{
+background: rgba(255,255,255,1) !important;
+/*background: url("/../../img/main4.png") !important;*/
+}
+
+.modal-dialog{
+top: 20%;
+background: rgb(255,255,255);
+}
+
+.dark .modal-dialog{
+background: rgb(0,0,0);
+}
+
+.modal{
 backdrop-filter: blur(40px);
+}
+
+.modal-backdrop{
+z-index: 0 !important;
 }
 
 .alert{

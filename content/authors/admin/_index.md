@@ -82,17 +82,17 @@ email: ""
 <input type="checkbox" id="btnControl">
 <label class="main-l" for="btnControl">
 <div class="main-a">
-I'm an undergraduate student interested in computational physics.  
-
-At the UTKL Research Group, I am developing a novel whole-body plastic Positron Emission Tomography detector.  
-At the Phonon Momentum Group, I investigate the angular momentum of lattice phonons in ferrite samples. 
-
-I also explore simple computer science algorithms, produce physics simulations, art, and music.
-</div>
+<br>
+I'm an undergraduate student interested in computational physics.<br><br>
+<ul>
+<li>At the UTKL Research Group, I develop a novel plastic barrel Positron Emission Tomography system.</li>  
+<li>At the Phonon Momentum Group, I investigate the angular momentum of lattice phonons in ferrite samples.</li>
+</ul>I also explore simple computer science algorithms, produce physics simulations, art, and music.</div>
 <form class='secret'>
-    <label for="pswd">Numeric Code: </label>
+<br><br><br><br>
     <input type="number" id="pswd"></input>
-    <input type="button" value="Submit" onclick="checkPswd();" />
+    <input type="button" value="submit" onclick="checkPswd();" />
+<br><br><br>
 </form>
 <script type="text/javascript">
 function checkPswd() {
