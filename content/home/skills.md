@@ -65,7 +65,7 @@ subtitle = ""
 [[feature]]
   icon = "file-code"
   icon_pack = "fas"
-  name = "Mathematica"
+  name = "Math<wbr>ematica"
   description = "75%"
 
 [[feature]]
@@ -137,13 +137,13 @@ subtitle = ""
 [[feature]]
   icon = "tv"
   icon_pack = "fas"
-  name = "MS Hypervisor"
+  name = "MS Hyper<wbr>visor"
   description = "60%"
 
 [[feature]]
   icon = "tv"
   icon_pack = "fas"
-  name = "VirtualBox"
+  name = "Virtual Box"
   description = "80%"
 
 [[feature]]
@@ -239,7 +239,7 @@ subtitle = ""
 [[feature]]
   icon = "wave-square"
   icon_pack = "fas"
-  name = "MuseScore"
+  name = "Muse<wbr>Score"
   description = "60%"
 
 
@@ -276,7 +276,7 @@ subtitle = ""
 [[feature]]
   icon = "language"
   icon_pack = "fas"
-  name = "French/français"
+  name = "French / Français"
   description = "40%"
 
 [[feature]]

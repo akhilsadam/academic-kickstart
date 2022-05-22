@@ -4,7 +4,8 @@
     --mn-L3-text-color: #0c0c0c;
     --mn-D3-text-color: #c0c0c0;
     --mn-red-color: red;
-    --kotoba: Kiona Regular, Aron Grotesque Light, Montserrat Regular;
+    --kotoba: Aron Grotesque, Montserrat Regular;
+    --kotoba2: 'Kiona';
     --aijiro: rgba(235, 246, 247, 1);
     --aijiro-alph: rgba(235, 246, 247, 0.15);
     --mashiro: rgb(255, 255, 255);
@@ -27,9 +28,9 @@
     --ginshu: rgb(188, 45, 41);
     --azuki-iro: rgb(103, 36, 34);
     --enji-iro: rgb(157, 41, 51);
-    --akabeni: rgb(195,39,43);
-    --shinshu : rgb(143,29,33);
-    --karakurenai : rgb(201,33,55);
+    --akabeni: rgb(195, 39, 43);
+    --shinshu: rgb(143, 29, 33);
+    --karakurenai: rgb(201, 33, 55);
     --kokushoku: rgb(23, 20, 18);
     --kokushoku-alph: rgba(23, 20, 18, 0.2);
     /* not accurate */
@@ -47,11 +48,6 @@
 html,
 body {
     background-color: rgba(0, 0, 0, 0);
-}
-
-.navbar {
-    margin-right: 0 !important;
-    padding: 0!important;
 }
 
 #------------------------ #navbar-main,
@@ -104,32 +100,11 @@ a.nav-link span {
     color: #ff0000 !important;
 }
 
-.d-none.d-lg-inline-flex{
-left: 0px;
-}
-
-@media(max-width:1440px, min-width:992px)
-{
-.nav-item{
-left: -4rem !important;
-}
-.navbar-brand{
-left: 4rem !important;
-}
-}
-
-@media(max-width:991.98px)
-{
-.nav-item{
-left: -4rem !important;
-}
-.navbar-brand{
-left: 0rem !important;
-}
+.d-none.d-lg-inline-flex {
+    left: 0px;
 }
 
 .navbar-brand {
-    left: -2rem;
     top: 0rem;
     color: rgb(250, 250, 255) !important;
     mix-blend-mode: color-dodge !important;
@@ -142,7 +117,6 @@ left: 0rem !important;
 }
 
 .dark .navbar-brand {
-    left: -2rem;
     top: 0.15rem;
     color: rgb(250, 50, 100) !important;
     font-family: Zenzai Itacha !important;
@@ -154,7 +128,8 @@ left: 0rem !important;
 }
 
 .nav-item {
-    left: 5rem;
+    font-family: var(--kotoba2) !important;
+    font-weight: bold;
 }
 
 .fas.fa-moon {
@@ -164,10 +139,6 @@ left: 0rem !important;
 
 .fas.fa-code {
     background: url(../../img/main.png) !important
-}
-
-.dark .nav-item {
-    left: 5rem;
 }
 
 #top::after {
@@ -192,11 +163,10 @@ left: 0rem !important;
     z-index: -2 !important;
 }
 
-@media (max-aspect-ratio:16/9)
-{
-.Main{
-background-size: cover !important;
-}
+@media (max-aspect-ratio:16/9) {
+    .Main {
+        background-size: cover !important;
+    }
 }
 
 .Main,
@@ -212,23 +182,24 @@ background-size: cover !important;
 }
 
 .inner {
-    margin-left: 10vw;
-    max-width: 80vw;
+    margin-right: 1vw;
+    right: 1vw;
+    max-width: 96vw;
     background: rgba(255, 255, 255, 0);
 }
 
 .Main {
     /* #filter: invert(1) !important; */
     background-image: url("../../img/test2.jpg") !important;
-    filter: contrast(0.8) brightness(4) saturate(0.3) hue-rotate(30deg);
+    filter: contrast(1) brightness(5) saturate(0.4) hue-rotate(30deg);
     mix-blend-mode: normal !important;
-    opacity: 0.8;
+    opacity: 0.84;
 }
 
 .dark .Main {
     /* filter: invert(0) !important; */
     background-image: url(../../img/main4.png) !important;
-    filter: contrast(1) brightness(1) hue-rotate(0deg);
+    filter: contrast(1) brightness(3) saturate(1) hue-rotate(0deg);
     mix-blend-mode: difference !important;
     opacity: 1.0;
 }
@@ -237,13 +208,15 @@ background-size: cover !important;
     /* background: rgba(255, 255, 255, 0.0) !important; */
     /* background: rgba(255, 255, 0, 1.0) !important; */
     backdrop-filter: blur(0px);
-    opacity: 0.3;
+    opacity: 0.55;
     image-rendering: crisp-edges;
+    filter: brightness(1.05) contrast(1.1);
 }
 
 .dark .Main::after {
     background: rgba(0, 0, 0, 0.0) !important;
     backdrop-filter: blur(0px);
+    filter: brightness(1.0) contrast(1);
 }
 
 .mMain {
@@ -259,19 +232,19 @@ background-size: cover !important;
     display: none;
     overflow: hidden;
     width: 100%;
-    height:100%;
+    height: 100%;
     position: absolute !important;
     background-attachment: fixed !important;
     background-position: 50% 50% !important;
     background-repeat: no-repeat !important;
     background-size: 100% auto;
-    content:"";
-    mix-blend-mode:normal; 
+    content: "";
+    mix-blend-mode: normal;
     isolation: isolate;
 }
 
-.main-music-light{
-color: var(--aijiro);
+.main-music-light {
+    color: var(--aijiro);
 }
 
 .Main::after {
@@ -295,11 +268,12 @@ color: var(--aijiro);
     transform: translateZ(0px) scaleX(1);
 }
 
-.dark .Main::after {
+
+/* .dark .Main::after {
     transform: translateZ(-4px) scaleX(0.9875);
     background-image: url("../../img/music.png") !important;
     mix-blend-mode: overlay !important;
-}
+} */
 
 .Main {
     background: none;
@@ -332,6 +306,14 @@ color: var(--aijiro);
     top: 7vh;
     left: 0px !important;
     z-index: -3;
+}
+
+.dark .Main::after {
+    /* // background-image: url("../../img/music.png") !important;  */
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.7) 55%) !important;
+    opacity: 1;
+    background-size: cover;
+    /* mix-blend-mode: hard-light !important; */
 }
 
 @media screen and (max-width: 430px) {
@@ -443,7 +425,7 @@ color: var(--aijiro);
 }
 
 .skill .container .row.featurette .col-2 {
-    display: block !important; 
+    display: block !important;
     /*filter: hue-rotate(-18deg) contrast(2);*/
     /*change above to none and remove filter if you want dropdown*/
 }
@@ -478,6 +460,10 @@ color: var(--aijiro);
     background: inherit !important;
 }
 
+.col2>p {
+    display: none;
+}
+
 #skill_icons {
     /*color: rgba(255, 100, 50, 1);*/
     background: none !important;
@@ -487,29 +473,29 @@ color: var(--aijiro);
 
 .featurette-icon {
     color: var(--mizu-iro) !important;
-    -webkit-text-stroke:1px var(--kokushoku);
+    -webkit-text-stroke: 1px var(--kokushoku);
 }
 
 .dark .featurette-icon {
     color: var(--sora-iro) !important;
-   -webkit-text-stroke:1px var(--kokushoku);
+    -webkit-text-stroke: 1px var(--kokushoku);
 }
 
 .featurette-icon:hover {
     /*mix-blend-mode: difference;*/
     color: var(--enji-iro) !important;
-    -webkit-text-stroke:1px var(--kokushoku);
-filter: contrast(2) drop-shadow(1px 1px 0.5px var(--kokushoku));
+    -webkit-text-stroke: 1px var(--kokushoku);
+    filter: contrast(2) drop-shadow(1px 1px 0.5px var(--kokushoku));
 }
 
 .dark .featurette-icon:hover {
-color: var(--akabeni) !important;
--webkit-text-stroke:0px var(--kokushoku);
-filter: brightness(2) drop-shadow(0.5px 0.5px 0.1px var(--kokushoku));
+    color: var(--akabeni) !important;
+    -webkit-text-stroke: 0px var(--kokushoku);
+    filter: brightness(2) drop-shadow(0.5px 0.5px 0.1px var(--kokushoku));
 }
 
-.dark #skill_icons.fab.fa-java{
--webkit-text-stroke:0px var(--kokushoku) !important;
+.dark #skill_icons.fab.fa-java {
+    -webkit-text-stroke: 0px var(--kokushoku) !important;
 }
 
 .form-group,
@@ -558,7 +544,7 @@ i.fas.fa-search {
     width: 100vw !important;
     height: 100vh !important;
     filter: invert(1);
-    top: 9.35vh;
+    top: 0vh;
     bottom: 0px;
     left: 2.35vw;
     right: 0px;
@@ -627,7 +613,6 @@ i.fas.fa-search {
     /* background: url(../../img/test2.jpg) !important; */
     background: rgba(0, 0, 0, 0) !important;
     min-height: 100% !important;
-    data-offset: 7vh !important;
 }
 
 .wdmargin {
@@ -642,9 +627,7 @@ i.fas.fa-search {
     margin: 0em 0 !important;
 }
 
-
-
-hr{
+hr {
     display: block;
     border: 0;
     margin: 2em 0 !important;
@@ -662,7 +645,7 @@ hr{
     overflow: hidden;
 }
 
-.dark hr{
+.dark hr {
     height: 8px !important;
     color: #fff !important;
     background-color: #000 !important;
@@ -671,7 +654,7 @@ hr{
     margin: 2em 0 !important;
     padding: 0;
     background-image: url(../../img/musicL3.png) !important;
-    background-attachement: relative !important;
+    background-attachment: relative !important;
     background-position: 5% 25% !important;
     backdrop-filter: invert(0) !important;
     background-blend-mode: hard-light !important;
@@ -687,7 +670,7 @@ hr{
 
 div {
     background: rgba(255, 255, 255, 0);
-    font-family: Aron Grotesque Light;
+    font-family: Calibri;
     font-variant-ligatures: none;
 }
 
@@ -697,6 +680,8 @@ h1 {
     color: #000 !important;
     -webkit-text-stroke: 0px white;
     /* width and color */
+    width: 100%;
+    text-align: center !important;
     filter: drop-shadow(2px 2px 1px white);
 }
 
@@ -732,20 +717,14 @@ h3 {
     /* color: var(--mn-D3-text-color) !important; */
 }
 
+@media (min-width: 1200px) {
+    .container {
+        max-width: none !important;
+    }
+}
+
 .container {
     z-index: 0;
-}
-
-.skill .container {
-    max-width: 80vw;
-    width: 80vw;
-    margin-left: 0vw;
-}
-
-@media (min-width: 1200px) {
-    .skill .container {
-        max-width: 80vw !important;
-    }
 }
 
 .halign {
@@ -764,8 +743,8 @@ h3 {
 }
 
 .universal-wrapper {
-    width: 85vw !important;
-    max-width: 85vw !important;
+    width: 100vw !important;
+    max-width: 100vw !important;
     overflow-x: hidden;
 }
 
@@ -809,17 +788,17 @@ h3 {
 }
 
 .hblur {
-    background: rgba(255,255,255,0.9);
+    background: rgba(255, 255, 255, 0.9);
     overflow: hidden;
     border-radius: 5px;
     border: 10px var(--kokushoku) !important;
 }
 
 .dark .hblur {
-    background: rgba(0,0,0,0.9);
+    background: rgba(0, 0, 0, 0.9);
     overflow: hidden;
     border-radius: 5px;
-    border: 10px var(--hakushi)  !important;
+    border: 10px var(--hakushi) !important;
 }
 
 .lblur {
@@ -929,36 +908,37 @@ h3 {
     font-weight: normal;
 }
 
-.modal-content{
-background: rgba(0,0,0,0) !important;
-/*background: url("/../../img/test2.jpg") !important;*/
+.modal-content {
+    background: rgba(0, 0, 0, 0) !important;
+    /*background: url("/../../img/test2.jpg") !important;*/
 }
 
-.dark .modal-content{
-background: rgba(255,255,255,1) !important;
-/*background: url("/../../img/main4.png") !important;*/
+.dark .modal-content {
+    background: rgba(255, 255, 255, 1) !important;
+    /*background: url("/../../img/main4.png") !important;*/
 }
 
-.modal-dialog{
-top: 20%;
-background: rgb(255,255,255);
+.modal-dialog {
+    top: 20%;
+    background: rgb(255, 255, 255);
 }
 
-.dark .modal-dialog{
-background: rgb(0,0,0);
+.dark .modal-dialog {
+    background: rgb(0, 0, 0);
 }
 
-.modal{
-backdrop-filter: blur(40px);
+.modal {
+    backdrop-filter: blur(40px);
 }
 
-.modal-backdrop{
-z-index: 0 !important;
+.modal-backdrop {
+    z-index: 0 !important;
 }
 
-.alert{
-background: transparent !important;
+.alert {
+    background: transparent !important;
 }
-.dark .alert{
-filter: invert(1);
+
+.dark .alert {
+    filter: invert(1);
 }

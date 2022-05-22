@@ -17,13 +17,20 @@ header:
 <script type="text/javascript"
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
-<h1>Curriculum Vitae</h1>
-<div class="cv" style="height:380vh;">
-  <div style="position:relative; left: 20%; width: 60%;">
-  <embed class="halign" src="resume.pdf" style="width:100%; height:380vh;" frameborder="0">
+<div class="row" style="width:100vw !important;left: 0px !important">
+  <div class="col-lg-4">
+    <h1>Curriculum Vitae</h1>
+    <div class="spacer" style="height:60vh;"></div>
+    <p class="text hc" style="position:relative; text-align:center; font-size:large;margin:0 auto;">Thank you for reading.</p>
+    <p class="text hc" style="position:relative; text-align:center; font-size:large;">Advice or questions appreciated!</p>
+  </div>
+  <div class="col-l20" style="width:3%;">
+  </div>
+  <div class="col-lg">
+    <div class="cv" style="height:80vh;">
+      <div style="position:relative;">
+      <embed class="halign" src="resume.pdf?#zoom=100" style="width:100%; height:80vh;" frameborder="0">
+      </div>
+    </div>
   </div>
 </div>
-<hr/>
-<note class="notet" style="position:relative; left: 43.3%;margin:0 auto;">(Last updated April 1st, 2021)</note>
-<p class="text hc" style="position:relative; left: 42%; width: 100%;font-size:large;margin:0 auto;">Thank you for reading.</p>
-<p class="text hc" style="position:relative; left: 39%; width: 100%;font-size:large;">Advice or questions appreciated!</p>

@@ -37,7 +37,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
 paginate = 10 # Number of items per page in paginated lists.
 
 [params]
-custom_css = ["css/font.css", "css/custom.css"]
+custom_css = ["css/font.css", "css/column.css", "css/custom.css"]
 custom_js = ["js/custom.js", "js/sc_api.js", "js/daynight.js"] #"js/GSAP/gsap.min.js","js/GSAP/ScrollTrigger.min.js",
 
 [outputs]

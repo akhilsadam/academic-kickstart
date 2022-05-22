@@ -1,36 +1,27 @@
 <!DOCTYPE html>
-<html lang="{{ site.LanguageCode | default "en-us" }}">
+<html lang="{{ site.LanguageCode | default " en-us " }}">
 
 {{ partial "site_head" . }}
-<body id="top" data-spy="scroll" data-offset="70" data-target="{{ if or .IsHome (eq .Type "widget_page") }}#navbar-main{{else}}#TableOfContents{{end}}" {{ if not (.Scratch.Get "light") }}class="dark"{{end}}>
 
-  {{ partial "search" . }}
+<body id="top" data-spy="scroll" data-offset="10" data-target="{{ if or .IsHome (eq .Type " widget_page ") }}#navbar-main{{else}}#TableOfContents{{end}}" {{ if not (.Scratch.Get "light") }}class="dark" {{end}}>
 
-  {{ partial "navbar" . }}	
-<bkgd  id="main" class="Main"> </bkgd>
-<bkgd  id="main2" class="mMain"> </bkgd>
-<inner  class="inner">
-  {{ block "main" . }}{{ end }}
+    {{ partial "search" . }} {{ partial "navbar" . }}
+    <bkgd id="main" class="Main"> </bkgd>
+    <bkgd id="main2" class="mMain"> </bkgd>
+    <inner class="inner">
+        {{ block "main" . }}{{ end }} {{/* Docs and Updates layouts include the site footer in a different location. */}} {{ if not (in (slice "docs" "updates") .Type) }}
+        <div class="container">
+            {{ partial "site_footer" . }}
+        </div>
 
-  {{/* Docs and Updates layouts include the site footer in a different location. */}}
-  {{ if not (in (slice "docs" "updates") .Type) }}
-  <div class="container">
-    {{ partial "site_footer" . }}
-  </div>
-
-  {{ end }}
+        {{ end }} {{ partial "citation" . }} {{ partial "site_js" . }}
 
 
 
-  {{ partial "citation" . }}
-
-  {{ partial "site_js" . }}
-
-
-
-</inner>
+    </inner>
 
 
 
 </body>
+
 </html>
