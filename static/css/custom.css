@@ -52,7 +52,7 @@ body {
 
 #------------------------ #navbar-main,
 .navbar {
-    background: url(../../img/main.png) !important;
+    background: url(/hugo-website/img/main.png) !important;
     /* background-size: 75% !important; */
     background-size: 100% !important;
     background-position: 45% 13% !important;
@@ -68,7 +68,7 @@ body {
 
 .dark #navbar-main,
 .dark .navbar {
-    background: url(../../img/head6.png) !important;
+    background: url(/hugo-website/img/head6.png) !important;
     background-size: cover !important;
     background-position: 0% 50% !important;
     /* background-repeat: repeat-x; */
@@ -138,7 +138,7 @@ a.nav-link span {
 }
 
 .fas.fa-code {
-    background: url(../../img/main.png) !important
+    background: url(/hugo-website/img/main.png) !important
 }
 
 #top::after {
@@ -190,7 +190,7 @@ a.nav-link span {
 
 .Main {
     /* #filter: invert(1) !important; */
-    background-image: url("../../img/test2.jpg") !important;
+    background-image: url("/hugo-website/img/test2.jpg") !important;
     filter: contrast(1) brightness(5) saturate(0.4) hue-rotate(30deg);
     mix-blend-mode: normal !important;
     opacity: 0.84;
@@ -198,7 +198,7 @@ a.nav-link span {
 
 .dark .Main {
     /* filter: invert(0) !important; */
-    background-image: url(../../img/main4.png) !important;
+    background-image: url(/hugo-website/img/main4.png) !important;
     filter: contrast(1) brightness(3) saturate(1) hue-rotate(0deg);
     mix-blend-mode: difference !important;
     opacity: 1.0;
@@ -220,7 +220,7 @@ a.nav-link span {
 }
 
 .mMain {
-    background: url("../img/a.png") !important;
+    background: url("/hugo-website/img/a.png") !important;
     z-index: -1 !important;
     position: fixed;
     top: 0px;
@@ -271,7 +271,7 @@ a.nav-link span {
 
 /* .dark .Main::after {
     transform: translateZ(-4px) scaleX(0.9875);
-    background-image: url("../../img/music.png") !important;
+    background-image: url("/hugo-website/img/music.png") !important;
     mix-blend-mode: overlay !important;
 } */
 
@@ -287,7 +287,7 @@ a.nav-link span {
     margin-bottom: 0px;
     margin-right: 0px;
     /* background: rgba(0, 0, 0, 0); */
-    /* background: url(../../img/main.png) !important; */
+    /* background: url(/hugo-website/img/main.png) !important; */
     /* backdrop-filter: blur(0px); */
     /* -webkit-backdrop-filter: blur(0px); */
     position: absolute !important;
@@ -309,7 +309,7 @@ a.nav-link span {
 }
 
 .dark .Main::after {
-    /* // background-image: url("../../img/music.png") !important;  */
+    /* // background-image: url("/hugo-website/img/music.png") !important;  */
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.7) 55%) !important;
     opacity: 1;
     background-size: cover;
@@ -537,7 +537,7 @@ i.fas.fa-search {
 #top::before {
     content: "";
     background-color: rgba(255, 255, 255, 1) !important;
-    background-image: url(../../img/musicL3.png) !important;
+    background-image: url(/hugo-website/img/musicL3.png) !important;
     background-blend-mode: difference;
     background-size: cover !important;
     position: fixed !important;
@@ -562,7 +562,7 @@ i.fas.fa-search {
 #bkgd {
     content: "";
     perspective: 320px;
-    background: url(../../img/musicL3.png) !important;
+    background: url(/hugo-website/img/musicL3.png) !important;
     background-size: cover !important;
     position: absolute !important;
     background-attachment: fixed !important;
@@ -585,7 +585,7 @@ i.fas.fa-search {
 }
 
 .dark #bkgd {
-    background: url(../../img/main4.png) !important;
+    background: url(/hugo-website/img/main4.png) !important;
     content: "";
     perspective: 320px;
     background-size: cover !important;
@@ -610,7 +610,7 @@ i.fas.fa-search {
 }
 
 #top {
-    /* background: url(../../img/test2.jpg) !important; */
+    /* background: url(/hugo-website/img/test2.jpg) !important; */
     background: rgba(0, 0, 0, 0) !important;
     min-height: 100% !important;
 }
@@ -635,7 +635,7 @@ hr {
     height: 10px !important;
     color: #000 !important;
     background-color: #000 !important;
-    /*background-image: url(../../img/musicL4.png) !important;*/
+    /*background-image: url(/hugo-website/img/musicL4.png) !important;*/
     backdrop-filter: invert(1) !important;
     mix-blend-mode: difference !important;
     background-image: none !important;
@@ -653,7 +653,7 @@ hr {
     border: 0;
     margin: 2em 0 !important;
     padding: 0;
-    background-image: url(../../img/musicL3.png) !important;
+    background-image: url(/hugo-website/img/musicL3.png) !important;
     background-attachment: relative !important;
     background-position: 5% 25% !important;
     backdrop-filter: invert(0) !important;
@@ -910,12 +910,12 @@ h3 {
 
 .modal-content {
     background: rgba(0, 0, 0, 0) !important;
-    /*background: url("/../../img/test2.jpg") !important;*/
+    /*background: url("/hugo-website/img/test2.jpg") !important;*/
 }
 
 .dark .modal-content {
     background: rgba(255, 255, 255, 1) !important;
-    /*background: url("/../../img/main4.png") !important;*/
+    /*background: url("/hugo-website/img/main4.png") !important;*/
 }
 
 .modal-dialog {

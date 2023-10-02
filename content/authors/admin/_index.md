@@ -78,7 +78,7 @@ email: ""
 #- Researchers
 #- Visitors
 ---
-<link href="../../css/sp.css" rel="stylesheet" type="text/css">
+<link href="css/sp.css" rel="stylesheet" type="text/css">
 <input type="checkbox" id="btnControl">
 <label class="main-l" for="btnControl">
 <div class="main-a">

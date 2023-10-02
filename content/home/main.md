@@ -19,4 +19,4 @@ weight = 15  # Order that this section will appear.
  css_class = "Main"
 
 +++
-<script defer src="../../js/custom.js"></script>
+<script defer src="hugo-website/js/custom.js"></script>
